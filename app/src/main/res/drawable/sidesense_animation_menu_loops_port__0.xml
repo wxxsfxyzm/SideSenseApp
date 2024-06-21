@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="320.0dip" android:width="248.0dip" android:viewportWidth="248.0" android:viewportHeight="320.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="_R_G">
+        <group android:name="_R_G_L_1_G" android:translateX="249.0" android:translateY="130.0">
+            <path android:name="_R_G_L_1_G_D_0_P_0" android:pathData=" M0 -170 C0,-94.56 0,-76.45 0,0 C0,76.45 0,94.56 0,170 " android:strokeColor="#ffffffff" android:strokeWidth="1.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+        </group>
+        <group android:name="_R_G_L_0_G_N_2_T_0" android:translateX="249.0" android:translateY="130.0">
+            <group android:name="_R_G_L_0_G" android:translateX="-1.0">
+                <path android:name="_R_G_L_0_G_D_0_P_0" android:pathData=" M-40 0 C-40,11.05 -48.95,20 -60,20 C-71.05,20 -80,11.05 -80,0 C-80,-11.05 -71.05,-20 -60,-20 C-48.95,-20 -40,-11.05 -40,0c " android:strokeColor="#ffffffff" android:strokeWidth="1.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="0.0" />
+            </group>
+        </group>
+    </group>
+    <group android:name="time_group" />
+</vector>

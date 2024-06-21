@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__28"
+        android:duration="83"
+        android:startOffset="0"
+        android:valueFrom="M0 -168 C0,-54 0,-43 0,0 C0,43 0,54 0,168 "
+        android:valueTo="M0 -168 C0,-54 -24,-43 -24,0 C-24,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__29"
+        android:duration="167"
+        android:startOffset="83"
+        android:valueFrom="M0 -168 C0,-54 -24,-43 -24,0 C-24,43 0,54 0,168 "
+        android:valueTo="M-0.25 -168 C-0.25,-54 -14.25,-43 -14.25,0 C-14.25,43 -0.25,54 -0.25,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__30"
+        android:duration="83"
+        android:startOffset="250"
+        android:valueFrom="M-0.25 -168 C-0.25,-54 -14.25,-43 -14.25,0 C-14.25,43 -0.25,54 -0.25,168 "
+        android:valueTo="M0 -168 C0,-54 -28,-43 -28,0 C-28,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__31"
+        android:duration="667"
+        android:startOffset="333"
+        android:valueFrom="M0 -168 C0,-54 -28,-43 -28,0 C-28,43 0,54 0,168 "
+        android:valueTo="M0 -168 C0,-54 0,-43 0,0 C0,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:duration="1000"
+        android:startOffset="1000"
+        android:valueFrom="M0 -168 C0,-54 0,-43 0,0 C0,43 0,54 0,168 "
+        android:valueTo="M0 -168 C0,-54 0,-43 0,0 C0,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__32"
+        android:duration="83"
+        android:startOffset="2000"
+        android:valueFrom="M0 -168 C0,-54 0,-43 0,0 C0,43 0,54 0,168 "
+        android:valueTo="M0 -168 C0,-54 -24,-43 -24,0 C-24,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__33"
+        android:duration="167"
+        android:startOffset="2083"
+        android:valueFrom="M0 -168 C0,-54 -24,-43 -24,0 C-24,43 0,54 0,168 "
+        android:valueTo="M-0.25 -168 C-0.25,-54 -14.25,-43 -14.25,0 C-14.25,43 -0.25,54 -0.25,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__34"
+        android:duration="83"
+        android:startOffset="2250"
+        android:valueFrom="M-0.25 -168 C-0.25,-54 -14.25,-43 -14.25,0 C-14.25,43 -0.25,54 -0.25,168 "
+        android:valueTo="M0 -168 C0,-54 -28,-43 -28,0 C-28,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__35"
+        android:duration="667"
+        android:startOffset="2333"
+        android:valueFrom="M0 -168 C0,-54 -28,-43 -28,0 C-28,43 0,54 0,168 "
+        android:valueTo="M0 -168 C0,-54 0,-43 0,0 C0,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:duration="1000"
+        android:startOffset="3000"
+        android:valueFrom="M0 -168 C0,-54 0,-43 0,0 C0,43 0,54 0,168 "
+        android:valueTo="M0 -168 C0,-54 0,-43 0,0 C0,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__36"
+        android:duration="83"
+        android:startOffset="4000"
+        android:valueFrom="M0 -168 C0,-54 0,-43 0,0 C0,43 0,54 0,168 "
+        android:valueTo="M0 -168 C0,-54 -24,-43 -24,0 C-24,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__37"
+        android:duration="167"
+        android:startOffset="4083"
+        android:valueFrom="M0 -168 C0,-54 -24,-43 -24,0 C-24,43 0,54 0,168 "
+        android:valueTo="M-0.25 -168 C-0.25,-54 -14.25,-43 -14.25,0 C-14.25,43 -0.25,54 -0.25,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__38"
+        android:duration="83"
+        android:startOffset="4250"
+        android:valueFrom="M-0.25 -168 C-0.25,-54 -14.25,-43 -14.25,0 C-14.25,43 -0.25,54 -0.25,168 "
+        android:valueTo="M0 -168 C0,-54 -28,-43 -28,0 C-28,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_welcome_loops__39"
+        android:duration="667"
+        android:startOffset="4333"
+        android:valueFrom="M0 -168 C0,-54 -28,-43 -28,0 C-28,43 0,54 0,168 "
+        android:valueTo="M0 -168 C0,-54 0,-43 0,0 C0,43 0,54 0,168 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+</set>

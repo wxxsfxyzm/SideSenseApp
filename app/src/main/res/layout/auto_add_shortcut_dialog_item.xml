@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/auto_add_shortcut_dialog_item_padding" android:paddingBottom="@dimen/auto_add_shortcut_dialog_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/app_or_shortcut_icon" android:layout_width="@dimen/settings_select_apps_list_item_icon_size" android:layout_height="@dimen/settings_select_apps_list_item_icon_size" android:layout_marginStart="@dimen/auto_add_custom_app_dialog_layout_right_and_left_margin" android:layout_marginEnd="@dimen/auto_add_custom_app_dialog_layout_icon_margin" />
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/settings_select_apps_list_item_text_size" android:layout_gravity="center" android:id="@id/app_or_shortcut_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <Switch android:id="@id/toggle_switch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/auto_add_custom_app_dialog_layout_right_and_left_margin" />
+</LinearLayout>

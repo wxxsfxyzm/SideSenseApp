@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dashboard_view" android:clipChildren="false" android:layout_width="@dimen/dashboard_shortcut_view_width" android:layout_height="@dimen/dashboard_shortcut_view_height" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/background_view" android:background="@drawable/dashboard_shortcut_background_corners" android:layout_width="@dimen/dashboard_shortcut_view_width" android:layout_height="@dimen/dashboard_shortcut_view_height" />
+    <GridView android:id="@id/grid_view" android:clipChildren="false" android:layout_width="@dimen/dashboard_shortcut_grid_view_width" android:layout_height="@dimen/dashboard_shortcut_grid_view_height" android:layout_marginTop="@dimen/dashboard_shortcut_grid_margin_top" android:horizontalSpacing="@dimen/dashboard_shortcut_item_space" android:verticalSpacing="@dimen/dashboard_shortcut_item_space_vertical" android:stretchMode="columnWidth" android:layout_marginStart="@dimen/dashboard_shortcut_grid_margin_start" />
+</RelativeLayout>

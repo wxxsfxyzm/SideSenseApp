@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="@dimen/header_view_bar_height" android:layout_weight="1.0" />
+        <ImageView android:id="@id/bar" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="@dimen/header_view_bar_height" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/status_view_layout" android:clickable="true" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/box_layout" android:clickable="true" android:clipChildren="false" android:layout_width="@dimen/status_width" android:layout_height="@dimen/status_height">
+        <RelativeLayout android:orientation="vertical" android:id="@id/box" android:clipChildren="false" android:layout_width="@dimen/status_box_width" android:layout_height="@dimen/status_box_height" android:splitMotionEvents="false">
+            <ImageView android:id="@id/box_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <include android:id="@id/status_view_sw_line" layout="@layout/status_view_line_item" />
+    <include android:id="@id/status_view_tw_line_vertical" layout="@layout/status_view_line_item" />
+    <include android:id="@id/status_view_tw_line_horizontal" layout="@layout/status_view_line_item" />
+</RelativeLayout>

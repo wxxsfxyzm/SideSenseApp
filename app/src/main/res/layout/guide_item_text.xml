@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:scrollbarAlwaysDrawVerticalTrack="true" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/guide_item_text_margin_bottom" android:layout_marginStart="@dimen/guide_item_text_margin_start_and_end" android:layout_marginEnd="@dimen/guide_item_text_margin_start_and_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/TextAppearance.Material.Title" />
+        <TextView android:id="@id/text_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/guide_item_text_margin_top" style="@android:style/TextAppearance.Material.Body1" />
+        <TextView android:textColor="?android:colorAccent" android:id="@id/text_link_title" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/TextAppearance.Material.Body1" />
+    </LinearLayout>
+</LinearLayout>

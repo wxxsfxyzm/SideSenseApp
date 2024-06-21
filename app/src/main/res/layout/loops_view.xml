@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/OverlayTheme"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.carlyu.sidesenseapp.loops.LoopsPromptImageView
+        android:layout_gravity="end"
+        android:id="@id/loops_prompt_right"
+        android:visibility="gone"
+        android:layout_width="120.0dip"
+        android:layout_height="360.0dip"
+        android:layout_marginTop="120.0dip"
+        android:src="@drawable/sidesense_animation_welcome_loops"
+        app:anim_duration="6000"
+        app:anim_start_offset="1500"
+        app:label_id="loops_prompt_label_right"
+        app:label_relative_x="-76.0dip"
+        app:label_relative_y="180.0dip" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsPromptTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/loops_prompt_label"
+        android:gravity="center|end"
+        android:id="@id/loops_prompt_label_right"
+        android:visibility="gone"
+        android:layout_width="160.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/ss_strings_welcome_introduction_txt"
+        android:maxLines="3"
+        android:shadowColor="@color/loops_prompt_label_shadow"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="8.0"
+        android:fontFamily="sans-serif-medium"
+        app:animator="loops_prompt_label_animator_right" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsPromptImageView
+        android:layout_gravity="start"
+        android:id="@id/loops_prompt_left"
+        android:visibility="gone"
+        android:layout_width="120.0dip"
+        android:layout_height="360.0dip"
+        android:layout_marginTop="120.0dip"
+        android:src="@drawable/sidesense_animation_welcome_loops"
+        android:scaleX="-1.0"
+        app:anim_duration="6000"
+        app:anim_start_offset="1500"
+        app:label_id="loops_prompt_label_left"
+        app:label_relative_x="36.0dip"
+        app:label_relative_y="180.0dip" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsPromptTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/loops_prompt_label"
+        android:gravity="center|start"
+        android:id="@id/loops_prompt_label_left"
+        android:visibility="gone"
+        android:layout_width="160.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/ss_strings_welcome_introduction_txt"
+        android:maxLines="3"
+        android:shadowColor="@color/loops_prompt_label_shadow"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="8.0"
+        android:fontFamily="sans-serif-medium"
+        app:animator="loops_prompt_label_animator_left" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="end"
+        android:id="@id/loops_oobe_intro_right"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_oobe_width"
+        android:layout_height="@dimen/loops_oobe_height"
+        android:layout_marginTop="@dimen/loops_oobe_margin_top"
+        android:src="@drawable/sidesense_animation_oobe_intro"
+        app:anim_duration="600" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="start"
+        android:id="@id/loops_oobe_intro_left"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_oobe_width"
+        android:layout_height="@dimen/loops_oobe_height"
+        android:layout_marginTop="@dimen/loops_oobe_margin_top"
+        android:src="@drawable/sidesense_animation_oobe_intro"
+        android:scaleX="-1.0"
+        app:anim_duration="600" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="end"
+        android:id="@id/loops_oobe_intro_sidebar_right"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_oobe_width"
+        android:layout_height="@dimen/loops_oobe_height"
+        android:layout_marginTop="@dimen/loops_oobe_margin_top"
+        android:src="@drawable/sidesense_animation_oobe_intro_displaytouch"
+        app:anim_duration="600" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="start"
+        android:id="@id/loops_oobe_intro_sidebar_left"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_oobe_width"
+        android:layout_height="@dimen/loops_oobe_height"
+        android:layout_marginTop="@dimen/loops_oobe_margin_top"
+        android:src="@drawable/sidesense_animation_oobe_intro_displaytouch"
+        android:scaleX="-1.0"
+        app:anim_duration="600" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="end"
+        android:id="@id/loops_oobe_intro_floating_right"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_oobe_width"
+        android:layout_height="@dimen/loops_oobe_height"
+        android:layout_marginTop="@dimen/loops_oobe_margin_top"
+        android:src="@drawable/sidesense_animation_oobe_intro_displaytouch"
+        app:anim_duration="600" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="start"
+        android:id="@id/loops_oobe_intro_floating_left"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_oobe_width"
+        android:layout_height="@dimen/loops_oobe_height"
+        android:layout_marginTop="@dimen/loops_oobe_margin_top"
+        android:src="@drawable/sidesense_animation_oobe_intro_displaytouch"
+        android:scaleX="-1.0"
+        app:anim_duration="600" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="end"
+        android:id="@id/loops_oobe_outro_right"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_oobe_width"
+        android:layout_height="@dimen/loops_oobe_height"
+        android:layout_marginTop="@dimen/loops_oobe_margin_top"
+        android:src="@drawable/sidesense_animation_oobe_outro"
+        app:anim_duration="1000" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="start"
+        android:id="@id/loops_oobe_outro_left"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_oobe_width"
+        android:layout_height="@dimen/loops_oobe_height"
+        android:layout_marginTop="@dimen/loops_oobe_margin_top"
+        android:src="@drawable/sidesense_animation_oobe_outro"
+        android:scaleX="-1.0"
+        app:anim_duration="1000" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="end"
+        android:id="@id/loops_oobe_close_right"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_oobe_width"
+        android:layout_height="@dimen/loops_oobe_height"
+        android:layout_marginTop="@dimen/loops_oobe_margin_top"
+        android:src="@drawable/sidesense_animation_oobe_close"
+        app:anim_duration="317" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="start"
+        android:id="@id/loops_oobe_close_left"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_oobe_width"
+        android:layout_height="@dimen/loops_oobe_height"
+        android:layout_marginTop="@dimen/loops_oobe_margin_top"
+        android:src="@drawable/sidesense_animation_oobe_close"
+        android:scaleX="-1.0"
+        app:anim_duration="317" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="end"
+        android:id="@id/loops_launcher_right"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_menu_port_width"
+        android:layout_height="@dimen/loops_menu_port_height"
+        android:src="@drawable/sidesense_animation_menu_loops_port"
+        app:anim_duration="1000"
+        app:loops_position_x="0.0dip"
+        app:loops_position_y="@dimen/loops_menu_port_loops_position_y" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="start"
+        android:id="@id/loops_launcher_left"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_menu_port_width"
+        android:layout_height="@dimen/loops_menu_port_height"
+        android:src="@drawable/sidesense_animation_menu_loops_port"
+        android:scaleX="-1.0"
+        app:anim_duration="1000"
+        app:loops_position_x="0.0dip"
+        app:loops_position_y="@dimen/loops_menu_port_loops_position_y" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="end"
+        android:id="@id/loops_launcher_sidebar_right"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_menu_port_width"
+        android:layout_height="@dimen/loops_menu_port_height"
+        android:src="@drawable/sidesense_animation_menu_loops_port_sidebar"
+        app:anim_duration="1000"
+        app:loops_position_x="0.0dip"
+        app:loops_position_y="@dimen/loops_menu_port_loops_sidebar_position_y" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="start"
+        android:id="@id/loops_launcher_sidebar_left"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_menu_port_width"
+        android:layout_height="@dimen/loops_menu_port_height"
+        android:src="@drawable/sidesense_animation_menu_loops_port_sidebar"
+        android:scaleX="-1.0"
+        app:anim_duration="1000"
+        app:loops_position_x="0.0dip"
+        app:loops_position_y="@dimen/loops_menu_port_loops_sidebar_position_y" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="end"
+        android:id="@id/loops_launcher_floating_right"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_menu_port_width"
+        android:layout_height="@dimen/loops_menu_port_height"
+        android:src="@drawable/sidesense_animation_menu_loops_port_floating"
+        app:anim_duration="1000"
+        app:loops_position_x="0.0dip"
+        app:loops_position_y="@dimen/loops_menu_port_loops_floating_position_y" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:layout_gravity="start"
+        android:id="@id/loops_launcher_floating_left"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_menu_port_width"
+        android:layout_height="@dimen/loops_menu_port_height"
+        android:src="@drawable/sidesense_animation_menu_loops_port_floating"
+        android:scaleX="-1.0"
+        app:anim_duration="1000"
+        app:loops_position_x="0.0dip"
+        app:loops_position_y="@dimen/loops_menu_port_loops_floating_position_y" />
+
+    <com.carlyu.sidesenseapp.loops.LoopsImageView
+        android:id="@id/loops_launcher_top"
+        android:visibility="gone"
+        android:layout_width="@dimen/loops_menu_land_width"
+        android:layout_height="@dimen/loops_menu_land_height"
+        android:src="@drawable/sidesense_animation_menu_loops_land"
+        app:anim_duration="1000"
+        app:loops_position_x="@dimen/loops_menu_land_touch_position_x"
+        app:loops_position_y="0.0dip" />
+</FrameLayout>

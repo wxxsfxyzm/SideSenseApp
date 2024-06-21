@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/brightness_view_layout" android:layout_width="@dimen/dashboard_view_width" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/brightness_background_layout" android:background="@drawable/brightness_background_corners" android:layout_width="fill_parent" android:layout_height="@dimen/dashboard_shortcut_brightness_background_height" />
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/brightness_seekbar_layout" android:paddingLeft="@dimen/rounded_slider_background_padding_left_right" android:paddingTop="@dimen/rounded_slider_background_padding_top_bottom" android:paddingRight="@dimen/rounded_slider_background_padding_left_right" android:paddingBottom="@dimen/rounded_slider_background_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <SeekBar android:layout_gravity="center_vertical" android:id="@id/seek_bar_brightness" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/dashboard_shortcut_brightness_view_height" android:progressDrawable="@drawable/brightness_progress_drawable" android:minHeight="48.0dip" android:thumb="@null" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:splitTrack="false" />
+    </FrameLayout>
+</RelativeLayout>

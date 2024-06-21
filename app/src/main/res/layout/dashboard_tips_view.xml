@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dashbaord_tips_view" android:paddingTop="@dimen/dashboard_tips_padding_top" android:clickable="true" android:clipChildren="false" android:layout_width="@dimen/dashboard_view_width" android:layout_height="@dimen/dashboard_tips_height_gone" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dashboard_tips_txt_size" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="start" android:id="@id/dashbaord_tips_text_view_1" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:fontFamily="bold" android:layout_marginStart="@dimen/dashboard_tips_txt_margin_start" />
+    <TextView android:textSize="@dimen/dashboard_tips_txt_size" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="start" android:id="@id/dashbaord_tips_text_view_2" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_below="@id/dashbaord_tips_text_view_1" android:fontFamily="bold" android:layout_marginStart="@dimen/dashboard_tips_txt_margin_start" />
+    <RelativeLayout android:id="@id/hint_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/dashboard_tips_hint_icon_height" android:layout_marginTop="@dimen/dashboard_tips_hint_margin_top">
+        <RelativeLayout android:clipChildren="false" android:layout_width="@dimen/dashboard_tips_hint_icon_width" android:layout_height="@dimen/dashboard_tips_hint_icon_height" android:layout_centerInParent="true" android:layout_alignParentStart="true">
+            <ImageView android:layout_width="@dimen/dashboard_tips_hint_icon_background_width" android:layout_height="@dimen/dashboard_tips_hint_icon_background_height" android:src="@drawable/hint" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

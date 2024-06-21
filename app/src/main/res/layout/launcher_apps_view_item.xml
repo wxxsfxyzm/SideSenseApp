@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/apps_view_item" android:clipChildren="false" android:layout_width="@dimen/apps_view_item_width" android:layout_height="@dimen/apps_view_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/apps_view_icon" android:layout_width="@dimen/apps_view_item_icon_width" android:layout_height="@dimen/apps_view_item_icon_height" android:layout_marginTop="@dimen/apps_view_item_margin_top" android:foreground="@drawable/btn_default_material" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/apps_view_font_size" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center|top" android:id="@id/apps_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/apps_view_item_text_margin_top" android:maxLines="2" android:layout_below="@id/apps_view_icon" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-condensed" />
+</RelativeLayout>

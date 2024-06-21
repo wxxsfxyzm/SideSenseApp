@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/launcher_view_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:insetBottom="@dimen/settings_btn_background_inset_bottom" android:inset="@dimen/settings_btn_background_inset">
+            <selector>
+                <item android:state_enabled="true">
+                    <shape>
+                        <solid android:color="@color/settings_btn_background_enable_true_color" />
+                        <corners android:radius="@dimen/settings_btn_background_corner" />
+                    </shape>
+                </item>
+                <item android:state_enabled="false">
+                    <shape>
+                        <solid android:color="@color/settings_btn_background_enable_false_color" />
+                        <corners android:radius="@dimen/settings_btn_background_corner" />
+                    </shape>
+                </item>
+            </selector>
+        </inset>
+    </item>
+</ripple>

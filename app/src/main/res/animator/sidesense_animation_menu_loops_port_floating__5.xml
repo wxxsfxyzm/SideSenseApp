@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_menu_loops_port_floating__6"
+        android:duration="233"
+        android:startOffset="0"
+        android:valueFrom="M-104.25 -1.12 C-104.25,4.33 -108.67,8.75 -114.12,8.75 C-119.58,8.75 -124,4.33 -124,-1.12 C-124,-6.58 -119.58,-11 -114.12,-11 C-108.67,-11 -104.25,-6.58 -104.25,-1.12c "
+        android:valueTo="M-28.38 35.66 C-26.45,76.25 -72.28,126.27 -114.02,118.82 C-156.77,111.19 -193.48,86.02 -193.08,39.76 C-192.77,3.18 -154.67,-32.91 -110.13,-37.48 C-65.98,-42 -30.41,-7.35 -28.38,35.66c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_menu_loops_port_floating__7"
+        android:duration="367"
+        android:startOffset="233"
+        android:valueFrom="M-28.38 35.66 C-26.45,76.25 -72.28,126.27 -114.02,118.82 C-156.77,111.19 -193.48,86.02 -193.08,39.76 C-192.77,3.18 -154.67,-32.91 -110.13,-37.48 C-65.98,-42 -30.41,-7.35 -28.38,35.66c "
+        android:valueTo="M-2.66 66.5 C-2.66,133.6 -57.05,188 -124.16,188 C-191.26,188 -245.09,133.6 -245.09,66.5 C-245.09,-0.6 -191.26,-55 -124.16,-55 C-57.05,-55 -2.66,-0.6 -2.66,66.5c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+</set>

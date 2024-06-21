@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/settings_sidesense_app_bar_item" />
+    <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/switch_bar" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.sonymobile.sidesenseapp.common.settings.SettingsVideoView android:id="@id/video" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/settings_activity_item_desc_font_size" android:id="@id/description" android:padding="@dimen/settings_activity_item_desc_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" android:fontFamily="sans-serif" />
+            <View android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="@dimen/settings_activity_item_divider_height" />
+            <include android:id="@id/create_pair_apps" layout="@layout/settings_item_text" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

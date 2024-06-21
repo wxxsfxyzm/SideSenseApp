@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/divider_layout" android:clickable="true" android:layout_width="@dimen/divider_view_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:gravity="top" android:id="@id/divider_view_line" android:background="@color/launcher_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/divider_view_margin_start_end" android:layout_marginEnd="@dimen/divider_view_margin_start_end" />
+    <Space android:id="@id/divider_margin_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/divider_view_margin_bottom" android:layout_toEndOf="@id/divider_view_line" />
+</RelativeLayout>

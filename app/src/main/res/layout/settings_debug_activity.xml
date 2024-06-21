@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonymobile.sidesenseapp.common.settings.switchbar.SwitchBar android:theme="?switchBarTheme" android:id="@id/switch_bar" android:background="@drawable/switchbar_background" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" />
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/switch_bar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/category_side_bar" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/side_bar_hide_time" layout="@layout/settings_item_text" />
+            <include android:id="@id/side_bar_animation" layout="@layout/settings_item_switch" />
+            <include android:id="@id/side_bar_animation_time" layout="@layout/settings_item_text" />
+            <include android:id="@id/side_bar_width_setting" layout="@layout/settings_item_switch" />
+            <include android:id="@id/side_bar_width" layout="@layout/settings_item_text" />
+            <include android:id="@id/side_bar_show_touch_area" layout="@layout/settings_item_switch" />
+            <include android:id="@id/show_gesture_navigation_area" layout="@layout/settings_item_switch" />
+            <include android:id="@id/float_end_threshold" layout="@layout/settings_item_text" />
+            <include android:id="@id/floating_tap_position_x" layout="@layout/settings_item_text" />
+            <include android:id="@id/floating_tap_position_y" layout="@layout/settings_item_text" />
+            <include android:id="@id/time_to_change_idle" layout="@layout/settings_item_text" />
+            <include android:id="@id/displaytouch_active_transparency" layout="@layout/settings_item_seekbar" />
+            <include android:id="@id/floating_animation_view_start_margin" layout="@layout/settings_item_text" />
+            <include android:id="@id/displaytouch_long_press_timeout" layout="@layout/settings_item_text" />
+            <include android:id="@id/sidebar_start_and_close_animation_time" layout="@layout/settings_item_text" />
+            <include android:id="@id/sidebar_show_in_screenshot" layout="@layout/settings_item_switch" />
+            <include android:id="@id/category_swipe_choice_view" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/swipe_choice_selected_icon_size" layout="@layout/settings_item_text" />
+            <include android:id="@id/three_way_swipe_diagonally_up_angle" layout="@layout/settings_item_text" />
+            <include android:id="@id/three_way_swipe_diagonally_down_angle" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_scroll_distance_r0" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_view_base_position_x_when_swipe_side" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_view_base_position_y_when_swipe_side" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_view_base_position_x_when_swipe_up" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_view_base_position_y_when_swipe_up" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_view_base_position_x_when_swipe_down" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_view_base_position_y_when_swipe_down" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_view_move_constraints_x" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_view_move_constraints_y" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_view_time_constant" layout="@layout/settings_item_text" />
+            <include android:id="@id/swipe_choice_view_fade_out_animation_time" layout="@layout/settings_item_text" />
+            <include android:id="@id/category_touch_detection" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/invalid_area_top_y" layout="@layout/settings_item_seekbar" />
+            <include android:id="@id/valid_area_y" layout="@layout/settings_item_seekbar" />
+            <include android:id="@id/landscape_bottom_touch" layout="@layout/settings_item_switch" />
+            <include android:id="@id/pointer_location" layout="@layout/settings_item_switch" />
+            <include android:id="@id/dynamic_filter_type" layout="@layout/settings_item_text" />
+            <include android:id="@id/show_dynamic_area_filter" layout="@layout/settings_item_switch" />
+            <include android:id="@id/dynamic_area_filter_media_version" layout="@layout/settings_item_switch" />
+            <include android:id="@id/smooth_factor" layout="@layout/settings_item_text" />
+            <include android:id="@id/multi_touch_gesture_detector" layout="@layout/settings_item_switch" />
+            <include android:id="@id/category_gesture" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/fling_velocity" layout="@layout/settings_item_text" />
+            <include android:id="@id/gesture_wait_time" layout="@layout/settings_item_text" />
+            <include android:id="@id/category_features" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/loops" layout="@layout/settings_item_switch" />
+            <include android:id="@id/category_ss_menu" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/side_sense_launcher" layout="@layout/settings_item_switch" />
+            <include android:id="@id/enable_active_area" layout="@layout/settings_item_switch" />
+            <include android:id="@id/side_sense_widget" layout="@layout/settings_item_switch" />
+            <include android:id="@id/more_apps" layout="@layout/settings_item_switch" />
+            <include android:id="@id/widget_size_bar" layout="@layout/settings_item_seekbar" />
+            <include android:id="@id/loops_position" layout="@layout/settings_item_seekbar" />
+            <include android:id="@id/blur_radius" layout="@layout/settings_item_text" />
+            <include android:id="@id/tab_threshold" layout="@layout/settings_item_text" />
+            <include android:id="@id/three_tab_amount" layout="@layout/settings_item_switch" />
+            <include android:id="@id/category_oobe" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/force_oobe" layout="@layout/settings_item_switch" />
+            <include android:id="@id/force_multi_oobe" layout="@layout/settings_item_switch" />
+            <include android:id="@id/loops_prompt_interval_time" layout="@layout/settings_item_text" />
+            <include android:id="@id/loops_prompt_show_count_to_stop" layout="@layout/settings_item_text" />
+            <include android:id="@id/reset_loops_prompt" layout="@layout/settings_item_switch" />
+            <include android:id="@id/category_assist" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/reset_assist" layout="@layout/settings_item_switch" />
+            <include android:id="@id/assist_interval_time" layout="@layout/settings_item_text" />
+            <include android:id="@id/category_notification" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/reset_guidance_notification" layout="@layout/settings_item_text" />
+            <include android:id="@id/guidance_notification_interval_time" layout="@layout/settings_item_text" />
+            <include android:id="@id/reset_headphone_notification" layout="@layout/settings_item_text" />
+            <include android:id="@id/category_idd" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/idd_start_stop" layout="@layout/settings_item_text" />
+            <include android:id="@id/idd_interval_time" layout="@layout/settings_item_text" />
+            <include android:id="@id/idd_settings_status" layout="@layout/settings_item_text" />
+            <include android:id="@id/category_performance" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/measure_menu_performance" layout="@layout/settings_item_switch" />
+            <include android:id="@id/category_other" layout="@layout/settings_item_category_header" />
+            <include android:id="@id/version" layout="@layout/settings_item_text" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

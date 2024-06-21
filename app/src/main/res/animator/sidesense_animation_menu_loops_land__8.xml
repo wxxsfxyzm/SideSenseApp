@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_menu_loops_land__9"
+        android:duration="200"
+        android:startOffset="0"
+        android:valueFrom="M-40 0 C-40,11.05 -48.95,20 -60,20 C-71.05,20 -80,11.05 -80,0 C-80,-11.05 -71.05,-20 -60,-20 C-48.95,-20 -40,-11.05 -40,0c "
+        android:valueTo="M-40 0 C-40,11.05 -48.95,20 -60,20 C-71.05,20 -80,11.05 -80,0 C-80,-11.05 -71.05,-20 -60,-20 C-48.95,-20 -40,-11.05 -40,0c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_menu_loops_land__10"
+        android:duration="250"
+        android:startOffset="200"
+        android:valueFrom="M-40 0 C-40,11.05 -48.95,20 -60,20 C-71.05,20 -80,11.05 -80,0 C-80,-11.05 -71.05,-20 -60,-20 C-48.95,-20 -40,-11.05 -40,0c "
+        android:valueTo="M18.95 -8.74 C22.47,65.71 -61.6,157.5 -138.18,143.83 C-216.61,129.83 -283.96,83.64 -283.23,-1.22 C-282.65,-68.34 -212.76,-134.55 -131.04,-142.93 C-50.05,-151.22 15.21,-87.66 18.95,-8.74c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_menu_loops_land__11"
+        android:duration="500"
+        android:startOffset="450"
+        android:valueFrom="M18.95 -8.74 C22.47,65.71 -61.6,157.5 -138.18,143.83 C-216.61,129.83 -283.96,83.64 -283.23,-1.22 C-282.65,-68.34 -212.76,-134.55 -131.04,-142.93 C-50.05,-151.22 15.21,-87.66 18.95,-8.74c "
+        android:valueTo="M83 -0.5 C83,118.52 -13.48,215 -132.5,215 C-251.52,215 -347,118.52 -347,-0.5 C-347,-119.52 -251.52,-216 -132.5,-216 C-13.48,-216 83,-119.52 83,-0.5c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+</set>

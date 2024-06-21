@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/settings_sidesense_app_bar_item" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.sonymobile.sidesenseapp.common.settings.SettingsVideoView android:id="@id/video" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants" />
+                <include android:id="@id/switch_bar" layout="@layout/settings_main_switch_bar_item" />
+                <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/settings_activity_item_desc_font_size" android:id="@id/description" android:paddingTop="@dimen/settings_activity_item_desc_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" android:fontFamily="sans-serif" android:paddingStart="@dimen/settings_activity_item_desc_padding" android:paddingEnd="@dimen/settings_activity_item_desc_padding" />
+                <include android:id="@id/practice_start_btn" layout="@layout/settings_item_button" />
+                <include android:id="@id/guide" layout="@layout/settings_item_button" />
+                <include android:id="@id/side_sense_menu" layout="@layout/settings_item_text" />
+                <include android:id="@id/multi_window_menu" layout="@layout/settings_item_text" />
+                <include android:id="@id/select_widgets" layout="@layout/settings_item_text" />
+                <include android:id="@id/hpc_widget" layout="@layout/settings_item_switch" />
+                <include android:id="@id/header_side_sense_properties" layout="@layout/settings_item_category_header" />
+                <include android:id="@id/black_list" layout="@layout/settings_item_text" />
+                <include android:id="@id/side_sense_side_and_display_touch" layout="@layout/settings_item_text" />
+                <include android:id="@id/side_sense_display_touch" layout="@layout/settings_item_text" />
+                <include android:id="@id/side_sense_tuning" layout="@layout/settings_item_text" />
+                <include android:id="@id/side_sense_back" layout="@layout/settings_item_switch" />
+                <include android:id="@id/gesture_assign" layout="@layout/settings_item_text" />
+                <include android:id="@id/lockscreen_settings" layout="@layout/settings_item_switch" />
+                <include android:id="@id/idi" layout="@layout/settings_item_text" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

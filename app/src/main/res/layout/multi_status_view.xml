@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/multi_status_view_layout" android:clickable="true" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/box_layout" android:layout_width="@dimen/multi_status_width" android:layout_height="@dimen/multi_status_height">
+        <RelativeLayout android:orientation="vertical" android:id="@id/box" android:clipChildren="false" android:layout_width="@dimen/multi_status_box_width" android:layout_height="@dimen/multi_status_box_height" android:splitMotionEvents="false">
+            <ImageView android:id="@id/box_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+            <RelativeLayout android:id="@id/primary_select_box" android:layout_width="@dimen/multi_status_select_box_width" android:layout_height="@dimen/multi_status_select_box_height" android:foreground="@drawable/btn_default_material" android:contentDescription="@string/ss_strings_accessibility_multi_window_upper_box_txt">
+                <ImageView android:id="@id/primary_icon" android:layout_width="@dimen/multi_status_icon_width" android:layout_height="@dimen/multi_status_icon_height" android:layout_marginTop="@dimen/multi_status_primary_icon_margin_top" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/secondary_select_box" android:layout_width="@dimen/multi_status_select_box_width" android:layout_height="@dimen/multi_status_select_box_height" android:foreground="@drawable/btn_default_material" android:layout_below="@id/primary_select_box" android:contentDescription="@string/ss_strings_accessibility_multi_window_lower_box_txt">
+                <ImageView android:id="@id/secondary_icon" android:layout_width="@dimen/multi_status_icon_width" android:layout_height="@dimen/multi_status_icon_height" android:layout_marginTop="@dimen/multi_status_secondary_icon_margin_top" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/arrow_icon" android:visibility="gone" android:layout_width="@dimen/multi_status_arrow_width" android:layout_height="@dimen/multi_status_arrow_height" android:src="@drawable/sidesense_multi_window_arrow_left" android:contentDescription="@null" />
+    </RelativeLayout>
+    <include android:id="@id/mw_status_view_mw_line_horizontal" layout="@layout/status_view_line_item" />
+    <include android:id="@id/mw_status_view_description" layout="@layout/status_view_description_item" />
+</RelativeLayout>

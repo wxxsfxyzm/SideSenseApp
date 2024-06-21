@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/icon_and_app_name" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="@dimen/settings_select_apps_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/icon" android:focusable="false" android:layout_width="@dimen/settings_select_apps_list_item_icon_size" android:layout_height="@dimen/settings_select_apps_list_item_icon_size" android:contentDescription="@null" android:layout_marginStart="@dimen/settings_add_apps_and_shortcuts_list_element_item_margin" android:layout_marginEnd="@dimen/settings_select_apps_list_item_icon_margin" />
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/settings_select_apps_list_item_text_size" android:ellipsize="end" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif" />
+</LinearLayout>

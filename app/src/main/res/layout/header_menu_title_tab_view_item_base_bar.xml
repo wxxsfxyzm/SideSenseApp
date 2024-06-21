@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/header_view_base_bar_height" android:alpha="0.4" />
+</FrameLayout>

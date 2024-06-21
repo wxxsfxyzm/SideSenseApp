@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_doubletap__5"
+        android:duration="100"
+        android:startOffset="0"
+        android:valueFrom="M0 89 C0,26 0,34 0,0 C0,-34 0,-26 0,-89 "
+        android:valueTo="M0 89 C0,26 -23,34 -23,0 C-23,-34 0,-26 0,-89 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_doubletap__6"
+        android:duration="150"
+        android:startOffset="100"
+        android:valueFrom="M0 89 C0,26 -23,34 -23,0 C-23,-34 0,-26 0,-89 "
+        android:valueTo="M0 89 C0,26 -9.38,34 -9.38,0 C-9.38,-34 0,-26 0,-89 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_doubletap__7"
+        android:duration="100"
+        android:startOffset="250"
+        android:valueFrom="M0 89 C0,26 -9.38,34 -9.38,0 C-9.38,-34 0,-26 0,-89 "
+        android:valueTo="M0 89 C0,26 -23,34 -23,0 C-23,-34 0,-26 0,-89 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_doubletap__8"
+        android:duration="150"
+        android:startOffset="350"
+        android:valueFrom="M0 89 C0,26 -23,34 -23,0 C-23,-34 0,-26 0,-89 "
+        android:valueTo="M0 89 C0,26 -9.38,34 -9.38,0 C-9.38,-34 0,-26 0,-89 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+</set>

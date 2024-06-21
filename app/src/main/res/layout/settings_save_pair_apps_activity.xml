@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/settings_sidesense_app_bar_item" />
+    <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/switch_bar" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <include android:id="@id/top" layout="@layout/settings_save_pair_apps_item" />
+            <View android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="@dimen/settings_activity_item_divider_height" android:layout_marginTop="@dimen/settings_save_pair_apps_margin_top" android:layout_marginStart="@dimen/settings_save_pair_apps_padding_start" />
+            <include android:id="@id/bottom" layout="@layout/settings_save_pair_apps_item" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

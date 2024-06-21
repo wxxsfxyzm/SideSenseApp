@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@mipmap/window_manager_shortcut_icn" android:enabled="true" android:shortcutId="component-shortcut-sidesense" android:shortcutShortLabel="@string/ss_strings_app_launcher_txt">
+        <intent android:targetPackage="com.sonymobile.sidesenseapp" android:action="com.sonymobile.senseapp.action.LAUNCH_SIDE_SENSE_MENU" android:targetClass="com.sonymobile.sidesenseapp.launcher.shortcut.LauncherShortcutActivity" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/multi_window_shortcut_icn" android:enabled="true" android:shortcutId="component-shortcut-multiwindow" android:shortcutShortLabel="@string/ss_strings_multi_window_launcher_txt">
+        <intent android:targetPackage="com.sonymobile.sidesenseapp" android:action="com.sonymobile.senseapp.action.LAUNCH_MULTI_WINDOW" android:targetClass="com.sonymobile.sidesenseapp.mwindow.shortcut.MultiShortcutActivity" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/multi_window_shortcut_icn" android:enabled="true" android:shortcutId="component-shortcut-21:9multiwindow" android:shortcutShortLabel="@string/ss_strings_multi_window_launcher_wide_screen_txt">
+        <intent android:targetPackage="com.sonymobile.sidesenseapp" android:action="com.sonymobile.senseapp.action.LAUNCH_MULTI_WINDOW" android:targetClass="com.sonymobile.sidesenseapp.mwindow.shortcut.MultiShortcutActivity" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/dashboard_shortcut_icn" android:enabled="true" android:shortcutId="component-shortcut-dashboard" android:shortcutShortLabel="@string/ss_strings_dashboard_txt">
+        <intent android:targetPackage="com.sonymobile.sidesenseapp" android:action="com.sonymobile.senseapp.action.LAUNCH_DASHBOARD_MENU" android:targetClass="com.sonymobile.sidesenseapp.dashboard.shortcut.DashboardShortcutActivity" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="640.0dip" android:width="360.0dip" android:viewportWidth="360.0" android:viewportHeight="640.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="_R_G">
+        <group android:name="_R_G_L_0_G" android:translateX="360.0" android:translateY="320.0">
+            <path android:name="_R_G_L_0_G_D_0_P_0" android:pathData=" M-40 0.5 C-40,50.21 -80.29,90.5 -130,90.5 C-179.71,90.5 -220,50.21 -220,0.5 C-220,-49.21 -179.71,-89.5 -130,-89.5 C-80.29,-89.5 -40,-49.21 -40,0.5c " android:strokeColor="#ffffffff" android:strokeWidth="1.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+        </group>
+    </group>
+    <group android:name="time_group" />
+</vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/feedback_layout" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="@dimen/side_feedback_item_width" android:layout_height="@dimen/side_feedback_item_height">
+        <ImageView android:id="@id/feedback_scroll" android:visibility="gone" android:layout_width="@dimen/side_feedback_item_width" android:layout_height="@dimen/side_feedback_item_height" android:src="@drawable/sidesense_animation_scroll" android:layout_centerInParent="true" android:contentDescription="@null" />
+        <ImageView android:id="@id/feedback_double_tap" android:visibility="gone" android:layout_width="@dimen/side_feedback_item_width" android:layout_height="@dimen/side_feedback_item_height" android:src="@drawable/sidesense_animation_doubletap" android:layout_centerInParent="true" android:contentDescription="@null" />
+    </RelativeLayout>
+</RelativeLayout>

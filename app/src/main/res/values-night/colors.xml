@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_item_background">#ff424242</color>
+    <color name="card_item_body_text_color">#8cffffff</color>
+    <color name="card_item_title_text_color">#dbffffff</color>
+    <color name="pair_apps_not_set_color">#26ffffff</color>
+    <color name="qs_tile_bg_color">#ff000000</color>
+    <color name="ripple_material_inverse">@color/ripple_material_light</color>
+    <color name="settings_activity_item_text_color">#ddffffff</color>
+    <color name="settings_save_pair_apps_item_position_color">#88ffffff</color>
+    <color name="settings_text_title_disabled_color">#ff64686b</color>
+    <color name="settingslib_thumb_disabled_color">@android:color/system_neutral1_700</color>
+    <color name="settingslib_thumb_off_color">@android:color/system_neutral1_400</color>
+    <color name="settingslib_track_off_color">@android:color/system_neutral1_700</color>
+    <color name="settingslib_track_on_color">@color/settingslib_switch_track_on</color>
+    <color name="surface_header">#ff464646</color>
+    <color name="switchbar_switch_thumb_tint">@android:color/black</color>
+    <color name="switchbar_switch_track_tint">#82000000</color>
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_add_ali_pay_list">
+        <item>com.eg.android.AlipayGphone/com.eg.android.AlipayGphone.AlipayLogin$1002</item>
+        <item>com.eg.android.AlipayGphone/com.eg.android.AlipayGphone.AlipayLogin$1001</item>
+    </string-array>
+    <string-array name="auto_add_we_chat_pay_list">
+        <item>com.tencent.mm/com.tencent.mm.ui.LauncherUI$launch_type_offline_wallet</item>
+        <item>com.tencent.mm/com.tencent.mm.ui.LauncherUI$launch_type_scan_qrcode</item>
+    </string-array>
+    <string-array name="dashboard_view_list">
+        <item>Brightness:0</item>
+        <item>Shortcuts:1</item>
+        <item>jp.co.sony.mc.app.mediamodecontrolwidget/jp.co.sony.mc.app.mediamodecontrolwidget.MediaModeControlWidgetProvider:2</item>
+    </string-array>
+    <string-array name="dashboard_view_list_secondary">
+        <item>jp.co.sony.mc.app.mediamodecontrolwidget/jp.co.sony.mc.app.mediamodecontrolwidget.MediaModeControlWidgetProvider:0</item>
+    </string-array>
+    <string-array name="default_app_list">
+        <item>jp.auone.wallet/jp.auone.wallet.ui.main.DeviceCredentialSchemeActivity</item>
+        <item>com.sonymobile.android.dialer/com.android.dialer.app.DialtactsActivity</item>
+        <item>com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity</item>
+        <item>com.android.chrome/com.google.android.apps.chrome.Main</item>
+        <item>jp.naver.line.android/jp.naver.line.android.activity.SplashActivity</item>
+        <item>com.facebook.katana/com.facebook.katana.LoginActivity</item>
+        <item>jp.co.nttdocomo.carriermail/jp.co.nttdocomo.carriermail.activity.EulaViewer</item>
+        <item>com.kddi.android.auemail/com.kddi.android.auemail.MainActivity</item>
+        <item>jp.softbank.mb.mail/jp.softbank.mb.mail.ui.MessageMainActivity</item>
+        <item>com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity</item>
+        <item>com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity</item>
+        <item>com.sonyericsson.album/com.sonyericsson.album.MainActivity</item>
+        <item>com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity</item>
+        <item>com.whatsapp/com.whatsapp.Main</item>
+        <item>com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity</item>
+        <item>com.android.vending/com.android.vending.AssetBrowserActivity</item>
+        <item>com.facebook.orca/com.facebook.orca.auth.StartScreenActivity</item>
+        <item>com.sonymobile.android.contacts/com.android.contacts.activities.PeopleActivity</item>
+        <item>com.instagram.android/com.instagram.android.activity.MainTabActivity</item>
+        <item>jp.co.yahoo.android.yjtop/jp.co.yahoo.android.yjtop.YJTopActivity</item>
+        <item>com.google.android.apps.maps/com.google.android.maps.MapsActivity</item>
+        <item>com.twitter.android/com.twitter.android.StartActivity</item>
+        <item>com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer</item>
+        <item>com.android.calculator2/com.android.calculator2.Calculator</item>
+        <item>com.sonymobile.email/com.sonymobile.email.activity.Welcome</item>
+        <item>com.google.android.calendar/com.android.calendar.AllInOneActivity</item>
+        <item>com.sonyericsson.music/com.sonyericsson.music.MusicActivity</item>
+        <item>com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity</item>
+        <item>com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity</item>
+        <item>com.android.documentsui/com.android.documentsui.LauncherActivity</item>
+        <item>com.android.browser/com.google.android.apps.chrome.Main</item>
+        <item>com.sonymobile.calendar/com.sonymobile.calendar.LaunchActivity</item>
+    </string-array>
+    <string-array name="default_multi_app_list">
+        <item>com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity</item>
+        <item>com.android.chrome/com.google.android.apps.chrome.Main</item>
+        <item>com.android.browser/com.google.android.apps.chrome.Main</item>
+        <item>com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity</item>
+        <item>com.sonyericsson.album/com.sonyericsson.album.MainActivity</item>
+        <item>jp.naver.line.android/jp.naver.line.android.activity.SplashActivity</item>
+        <item>com.whatsapp/com.whatsapp.Main</item>
+        <item>com.tencent.mm/com.tencent.mm.ui.LauncherUI</item>
+        <item>com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity</item>
+        <item>com.google.android.gm/com.google.android.gm.ConversationListActivityGmail</item>
+        <item>com.google.android.apps.maps/com.google.android.maps.MapsActivity</item>
+        <item>com.google.android.calendar/com.android.calendar.AllInOneActivity</item>
+        <item>com.sonymobile.calendar/com.sonymobile.calendar.LaunchActivity</item>
+        <item>com.google.android.calculator/com.android.calculator2.Calculator</item>
+        <item>com.android.calculator2/com.android.calculator2.Calculator</item>
+        <item>com.sonymobile.exactcalculator/com.sonymobile.exactcalculator.Calculator</item>
+        <item>com.google.android.deskclock/com.android.deskclock.DeskClock</item>
+        <item>com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer</item>
+        <item>com.android.deskclock/com.android.deskclock.DeskClock</item>
+        <item>com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity</item>
+        <item>com.sonymobile.android.dialer/com.android.dialer.app.DialtactsActivity</item>
+        <item>com.sonymobile.android.contacts/com.android.contacts.activities.PeopleActivity</item>
+        <item>com.android.settings/com.android.settings.Settings</item>
+        <item>com.android.documentsui/com.android.documentsui.LauncherActivity</item>
+        <item>com.facebook.katana/com.facebook.katana.LoginActivity</item>
+        <item>jp.co.nttdocomo.carriermail/jp.co.nttdocomo.carriermail.activity.EulaViewer</item>
+        <item>com.kddi.android.auemail/com.kddi.android.auemail.MainActivity</item>
+        <item>jp.softbank.mb.mail/jp.softbank.mb.mail.ui.MessageMainActivity</item>
+        <item>com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity</item>
+        <item>com.android.vending/com.android.vending.AssetBrowserActivity</item>
+        <item>com.facebook.orca/com.facebook.orca.auth.StartScreenActivity</item>
+        <item>jp.co.yahoo.android.yjtop/jp.co.yahoo.android.yjtop.YJTopActivity</item>
+        <item>com.twitter.android/com.twitter.android.StartActivity</item>
+        <item>com.sonymobile.email/com.sonymobile.email.activity.Welcome</item>
+        <item>com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity</item>
+    </string-array>
+    <string-array name="default_pair_apps_list">
+        <item>@string/ss_package_app_youtube</item>
+        <item>@string/ss_package_app_chrome</item>
+        <item>@string/ss_package_app_chrome</item>
+        <item>@string/ss_package_app_maps</item>
+        <item>@string/ss_package_app_album</item>
+        <item>@string/ss_package_app_line</item>
+        <item>@string/ss_package_app_album</item>
+        <item>@string/ss_package_app_whatsapp</item>
+        <item>@string/ss_package_app_album</item>
+        <item>@string/ss_package_app_gmail</item>
+        <item>@string/ss_package_app_photo</item>
+        <item>@string/ss_package_app_line</item>
+        <item>@string/ss_package_app_photo</item>
+        <item>@string/ss_package_app_whatsapp</item>
+        <item>@string/ss_package_app_photo</item>
+        <item>@string/ss_package_app_gmail</item>
+        <item>@string/ss_package_app_album</item>
+        <item>@string/ss_package_app_sony_browser</item>
+        <item>@string/ss_package_app_sony_browser</item>
+        <item>@string/ss_package_app_sony_calendar</item>
+        <item>@string/ss_package_app_album</item>
+        <item>@string/ss_package_app_wechat</item>
+        <item>@string/ss_package_app_album</item>
+        <item>@string/ss_package_app_sony_messaging</item>
+    </string-array>
+    <string-array name="default_shortcuts_list">
+        <item>Wifi</item>
+        <item>MobileData</item>
+        <item>Bluetooth</item>
+        <item>AutoRotate</item>
+        <item>ExtraDim</item>
+        <item>Flashlight</item>
+        <item>Notification</item>
+        <item>Screenshot</item>
+    </string-array>
+    <string-array name="disable_preloaded_camera_packages">
+        <item>com.mediatek.camera</item>
+        <item>com.sonyericsson.android.camera</item>
+        <item>com.sonymobile.cinemapro</item>
+        <item>com.sonymobile.photopro</item>
+        <item>jp.co.sony.mc.videopro</item>
+    </string-array>
+    <string-array name="disable_side_touch_components">
+        <item>android.systemui.cts/.WindowInsetsActivity</item>
+        <item>android.autofillservice.cts/.LoginActivity</item>
+        <item>android.server.wm.cts/android.server.wm.WindowInputTests$TestActivity</item>
+    </string-array>
+    <string-array name="disable_side_touch_packages">
+        <item>jp.softbank.carrierprofilesetting</item>
+        <item>com.sonymobile.superstamina</item>
+        <item>com.mediatek.camera</item>
+        <item>com.bestproject.screensaver</item>
+    </string-array>
+    <string-array name="disable_side_touch_packages_on_keyguard">
+        <item>com.android.emergency</item>
+        <item>com.android.phone</item>
+    </string-array>
+    <array name="disable_side_touch_packages_on_land" />
+    <string-array name="enable_widget_components">
+        <item>com.sony.songpal.mdr/com.sony.songpal.mdr.application.MdrControlWidget</item>
+        <item>jp.co.sony.mc.app.mediamodecontrolwidget/jp.co.sony.mc.app.mediamodecontrolwidget.MediaModeControlWidgetProvider</item>
+    </string-array>
+    <string-array name="exclusion_all_apps_packages">
+        <item>com.sonymobile.xperiatransfermobile</item>
+        <item>com.touchtype.swiftkey</item>
+    </string-array>
+    <string-array name="exclusion_app_list">
+        <item>com.sonymobile.forbiddenapp/test</item>
+    </string-array>
+    <string-array name="exclusion_multi_app_list">
+        <item>jp.softbank.mb.cbrl</item>
+        <item>com.google.earth</item>
+    </string-array>
+    <string-array name="exclusion_packages_from_camera_addon">
+        <item>com.evernote</item>
+    </string-array>
+    <array name="floating_animation_list">
+        <item>@drawable/bar_float00</item>
+        <item>@drawable/bar_float01</item>
+        <item>@drawable/bar_float02</item>
+        <item>@drawable/bar_float03</item>
+        <item>@drawable/bar_float04</item>
+        <item>@drawable/bar_float05</item>
+        <item>@drawable/bar_float06</item>
+        <item>@drawable/bar_float07</item>
+        <item>@drawable/bar_float08</item>
+        <item>@drawable/bar_float09</item>
+        <item>@drawable/bar_float10</item>
+        <item>@drawable/bar_float11</item>
+        <item>@drawable/bar_float12</item>
+        <item>@drawable/bar_float13</item>
+        <item>@drawable/bar_float14</item>
+        <item>@drawable/bar_float15</item>
+        <item>@drawable/bar_float16</item>
+        <item>@drawable/bar_float17</item>
+        <item>@drawable/bar_float18</item>
+        <item>@drawable/bar_float19</item>
+    </array>
+    <array name="floating_close_animation_list">
+        <item>@drawable/floating_drag_to_normal01</item>
+        <item>@drawable/floating_drag_to_normal02</item>
+        <item>@drawable/floating_drag_to_normal03</item>
+        <item>@drawable/floating_drag_to_normal04</item>
+        <item>@drawable/floating_drag_to_normal05</item>
+        <item>@drawable/floating_drag_to_normal06</item>
+    </array>
+    <array name="floating_start_animation_list">
+        <item>@drawable/floating_normal_to_drag01</item>
+        <item>@drawable/floating_normal_to_drag02</item>
+        <item>@drawable/floating_normal_to_drag03</item>
+        <item>@drawable/floating_normal_to_drag04</item>
+        <item>@drawable/floating_normal_to_drag05</item>
+        <item>@drawable/floating_normal_to_drag06</item>
+    </array>
+    <string-array name="multi_launcher_view_list">
+        <item>MultiApps:0</item>
+        <item>PairApps:1</item>
+        <item>MultiTools:2</item>
+    </string-array>
+    <string-array name="recommend_apps_list">
+        <item>com.tencent.mm/com.tencent.mm.ui.LauncherUI</item>
+        <item>com.eg.android.AlipayGphone/com.eg.android.AlipayGphone.AlipayLogin</item>
+    </string-array>
+    <string-array name="related_package_list">
+        <item>com.facebook.appmanager:com.facebook.katana</item>
+    </string-array>
+    <string-array name="sidesense_list">
+        <item>@string/ss_strings_settings_off_txt</item>
+        <item>@string/ss_strings_settings_on_txt</item>
+    </string-array>
+    <string-array name="view_list">
+        <item>Application:0</item>
+        <item>QuickSettings:1</item>
+        <item>Tools:2</item>
+    </string-array>
+</resources>

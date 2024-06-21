@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/sidesense_animation_doubletap__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="_R_G_L_2_G_D_0_P_0" android:animation="@animator/sidesense_animation_doubletap__1" />
+    <target android:name="_R_G_L_2_G_D_0_P_0" android:animation="@animator/sidesense_animation_doubletap__4" />
+    <target android:name="_R_G_L_1_G_D_0_P_0" android:animation="@animator/sidesense_animation_doubletap__9" />
+    <target android:name="_R_G_L_1_G_D_0_P_0" android:animation="@animator/sidesense_animation_doubletap__12" />
+    <target android:name="_R_G_L_0_G_D_0_P_0" android:animation="@animator/sidesense_animation_doubletap__17" />
+    <target android:name="_R_G_L_0_G_D_0_P_0" android:animation="@animator/sidesense_animation_doubletap__20" />
+    <target android:name="time_group" android:animation="@animator/sidesense_animation_doubletap__25" />
+</animated-vector>

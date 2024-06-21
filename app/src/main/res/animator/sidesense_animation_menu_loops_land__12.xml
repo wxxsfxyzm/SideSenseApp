@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="200"
+        android:startOffset="0"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:valueType="floatType"
+        android:propertyName="strokeAlpha" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_menu_loops_land__13"
+        android:duration="250"
+        android:startOffset="200"
+        android:valueFrom="0.5"
+        android:valueTo="0.5"
+        android:valueType="floatType"
+        android:propertyName="strokeAlpha" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_menu_loops_land__14"
+        android:duration="500"
+        android:startOffset="450"
+        android:valueFrom="0.5"
+        android:valueTo="0"
+        android:valueType="floatType"
+        android:propertyName="strokeAlpha" />
+</set>

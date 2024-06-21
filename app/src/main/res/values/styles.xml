@@ -1,0 +1,35 @@
+<resources>
+
+    <style name="ActionPrimaryButton" parent="@android:style/Widget.DeviceDefault.Button.Colored">
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="AndroidThemeColorAccentYellow">
+        <item name="android:colorAccent">?android:attr/colorAccent</item>
+        <item name="android:textColorSecondary">#ffcc00</item>
+    </style>
+
+    <style name="ApplicationTheme" parent="@style/ApplicationThemeBase">
+        <!--<item name="android:editTextBackground">@android:drawable/edit_text_holo_light</item>-->
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+        <item name="android:windowBackground">@android:color/holo_blue_light</item>
+        <item name="android:buttonStyle">@android:style/Widget.Material.Button.Borderless</item>
+        <item name="android:textColorSecondary">?android:attr/colorAccent</item>
+    </style>
+
+    <style name="ApplicationThemeBase" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="android:buttonStyle">@android:style/Widget.Material.Button.Borderless</item>
+        <item name="android:windowBackground">@android:color/holo_blue_light</item>
+    </style>
+
+    <style name="MyTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="NotificationTheme" parent="@android:style/Theme.DeviceDefault.Settings" />
+
+    <style name="OverlayTheme" parent="@android:style/Theme.DeviceDefault.Settings" />
+</resources>

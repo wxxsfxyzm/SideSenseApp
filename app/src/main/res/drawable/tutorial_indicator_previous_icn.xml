@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/tutorial_indicator_previous" android:inset="@dimen/tutorial_indicator_previous_icn_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

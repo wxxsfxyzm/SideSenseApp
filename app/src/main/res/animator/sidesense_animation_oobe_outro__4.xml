@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_oobe_outro__5"
+        android:duration="833"
+        android:startOffset="0"
+        android:valueFrom="M-40 0.5 C-40,50.21 -80.29,90.5 -130,90.5 C-179.71,90.5 -220,50.21 -220,0.5 C-220,-49.21 -179.71,-89.5 -130,-89.5 C-80.29,-89.5 -40,-49.21 -40,0.5c "
+        android:valueTo="M98 0 C98,125.92 -4.08,228 -130,228 C-255.92,228 -358,125.92 -358,0 C-358,-125.92 -255.92,-228 -130,-228 C-4.08,-228 98,-125.92 98,0c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+</set>

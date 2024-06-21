@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_oobe_intro__2"
+        android:duration="317"
+        android:startOffset="0"
+        android:valueFrom="M0 -170 C0,-94.56 0,-76.45 0,0 C0,76.45 0,94.56 0,170 "
+        android:valueTo="M0 -170 C0,27.5 -79,-41.5 -79,0 C-79,41.5 0,-27.5 0,170 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_oobe_intro__3"
+        android:duration="17"
+        android:startOffset="317"
+        android:valueFrom="M0 -170 C0,27.5 -79,-41.5 -79,0 C-79,41.5 0,-27.5 0,170 "
+        android:valueTo="M0.5 -170 C0.5,-27.5 -37.5,-41.5 -37.5,0 C-37.5,41.5 0.5,27.5 0.5,170 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_oobe_intro__4"
+        android:duration="333"
+        android:startOffset="333"
+        android:valueFrom="M0.5 -170 C0.5,-27.5 -37.5,-41.5 -37.5,0 C-37.5,41.5 0.5,27.5 0.5,170 "
+        android:valueTo="M0 -170 C0,-94.56 0,-76.45 0,0 C0,76.45 0,94.56 0,170 "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+</set>

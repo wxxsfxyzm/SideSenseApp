@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/select_apps" layout="@layout/settings_item_text" />
+        <include android:id="@id/select_widgets" layout="@layout/settings_item_text" />
+        <include android:id="@id/idi" layout="@layout/settings_item_text" />
+    </LinearLayout>
+</ScrollView>

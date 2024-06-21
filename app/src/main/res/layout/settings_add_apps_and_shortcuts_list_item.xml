@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="@dimen/settings_select_apps_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/icon_and_app_name" android:paddingTop="@dimen/settings_add_apps_and_shortcuts_list_item_divider_margin" android:paddingBottom="@dimen/settings_add_apps_and_shortcuts_list_item_divider_margin" android:layout_width="@dimen/settings_add_apps_and_shortcuts_list_item_text_view_width" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/settings_activity_item_padding_side">
+            <ImageView android:gravity="center_vertical" android:id="@id/icon" android:focusable="false" android:layout_width="@dimen/settings_select_apps_list_item_icon_size" android:layout_height="@dimen/settings_select_apps_list_item_icon_size" android:contentDescription="@null" android:layout_marginEnd="@dimen/settings_select_apps_list_item_icon_margin" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/settings_select_apps_list_item_text_size" android:ellipsize="end" android:id="@id/app_name" android:layout_width="@dimen/settings_add_apps_and_shortcuts_list_item_text_view_width" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="sans-serif" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/divider_and_arrow" android:paddingTop="@dimen/settings_add_apps_and_shortcuts_list_item_divider_margin" android:paddingBottom="@dimen/settings_add_apps_and_shortcuts_list_item_divider_margin" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <View android:id="@id/divider" android:background="?android:dividerVertical" android:visibility="gone" android:layout_width="@dimen/settings_add_apps_and_shortcuts_list_item_divider_width" android:layout_height="fill_parent" />
+            <ImageView android:layout_gravity="center" android:id="@id/arrow_icon" android:focusable="false" android:layout_width="@dimen/settings_select_apps_list_item_handle_icon_size" android:layout_height="@dimen/settings_select_apps_list_item_handle_icon_size" android:contentDescription="@null" android:layout_marginStart="@dimen/settings_select_apps_list_item_icon_margin" android:layout_marginEnd="@dimen/settings_select_apps_list_item_icon_margin" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

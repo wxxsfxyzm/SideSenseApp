@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/assist_view_layout" android:visibility="gone" android:clickable="true" android:clipChildren="false" android:layout_width="@dimen/assist_view_width" android:layout_height="@dimen/assist_view_height" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/assist_view_background" android:clipChildren="false" android:layout_width="@dimen/assist_view_touch_width" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackground" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/assist_view_font_size" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/assist_view_text" android:layout_width="@dimen/assist_view_text_width" android:layout_height="wrap_content" android:maxLines="2" android:layout_centerInParent="true" android:fontFamily="sans-serif-condensed" android:layout_marginStart="@dimen/assist_view_margin_start" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/assist_view_icon" android:layout_width="@dimen/assist_view_icon_width" android:layout_height="@dimen/assist_view_icon_height" android:layout_centerInParent="true" android:contentDescription="@null" android:layout_marginStart="@dimen/assist_view_image_margin_start" android:layout_marginEnd="@dimen/assist_view_margin_end" android:layout_toEndOf="@id/assist_view_text" />
+    </RelativeLayout>
+</RelativeLayout>

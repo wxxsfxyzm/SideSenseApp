@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/settings_save_pair_apps_item_title_height" android:paddingStart="@dimen/settings_save_pair_apps_padding_start" android:paddingEnd="@dimen/settings_save_pair_apps_padding_end">
+        <TextView android:textSize="@dimen/settings_save_pair_apps_item_position_text_size" android:textColor="@color/settings_save_pair_apps_item_position_color" android:ellipsize="end" android:id="@id/position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/button" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/settings_save_pair_apps_item_button_height" android:paddingStart="@dimen/settings_save_pair_apps_padding_start" android:paddingEnd="@dimen/settings_save_pair_apps_padding_end">
+        <ImageView android:id="@id/image" android:focusable="false" android:layout_width="@dimen/settings_save_pair_apps_item_icon_size" android:layout_height="@dimen/settings_save_pair_apps_item_icon_size" android:src="@drawable/ic_pair_apps_not_set" android:contentDescription="@null" android:layout_marginEnd="@dimen/settings_save_pair_apps_item_icon_margin" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/settings_save_pair_apps_item_app_name_text_size" android:textColor="@color/settings_activity_item_text_color" android:ellipsize="end" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/settings_save_pair_apps_item_app_name_margin_bottom" android:text="@string/ss_strings_multi_window_app_not_set_txt" android:maxLines="1" android:fontFamily="sans-serif" />
+            <TextView android:textSize="@dimen/settings_save_pair_apps_item_action_text_size" android:textColor="?android:colorAccent" android:ellipsize="end" android:id="@id/action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ss_strings_multi_window_menu_change_app_txt" android:maxLines="1" android:textAllCaps="true" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

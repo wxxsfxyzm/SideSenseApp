@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/settings_sidesense_app_bar_item" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/guide_image" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@null" />
+                <include android:id="@id/guide_tw_popup_window" layout="@layout/guide_item_text" />
+                <include android:id="@id/guide_tw_popup_window_max_size_launch" layout="@layout/guide_item_text" />
+                <include android:id="@id/guide_tw_popup_window_free_size_launch" layout="@layout/guide_item_text" />
+                <include android:id="@id/guide_tw_popup_window_launch_from_ss" layout="@layout/guide_item_text" />
+                <include android:id="@id/guide_tw_popup_window_launch_from_recent" layout="@layout/guide_item_text" />
+                <include android:id="@id/guide_tw_popup_window_launch_from_ge" layout="@layout/guide_item_text" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

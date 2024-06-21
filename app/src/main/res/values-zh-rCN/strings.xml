@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">转到首页</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 键</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 键</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">空格键</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享对象</string>
+    <string name="abc_shareactionprovider_share_with_application">与%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="bottomsheet_action_expand_halfway">展开到一半高度</string>
+    <string name="character_counter_content_description">输入了 %1$d 个字符（上限为 %2$d 个）</string>
+    <string name="character_counter_overflowed_content_description">超出字符数限制（共 %1$d 个，上限为 %2$d 个）</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="error_icon_content_description">错误</string>
+    <string name="expand_button_title">高级</string>
+    <string name="exposed_dropdown_menu_content_description">显示下拉菜单</string>
+    <string name="icon_content_description">对话框图标</string>
+    <string name="item_view_role_description">标签页</string>
+    <string name="material_clock_toggle_content_description">选择上午或下午</string>
+    <string name="material_hour_selection">选择小时</string>
+    <string name="material_hour_suffix">%1$s 点</string>
+    <string name="material_minute_selection">选择分钟</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">上午</string>
+    <string name="material_timepicker_clock_mode_description">切换到时钟模式来输入时间。</string>
+    <string name="material_timepicker_hour">小时</string>
+    <string name="material_timepicker_minute">分钟</string>
+    <string name="material_timepicker_pm">下午</string>
+    <string name="material_timepicker_select_time">选择时间</string>
+    <string name="material_timepicker_text_input_mode_description">切换到文字输入模式来输入时间。</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除%1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">有 %1$d 条以上的新通知</string>
+    <string name="mtrl_picker_a11y_next_month">转到下个月</string>
+    <string name="mtrl_picker_a11y_prev_month">转到上个月</string>
+    <string name="mtrl_picker_announce_current_selection">当前的选择是：%1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">请选择日期</string>
+    <string name="mtrl_picker_date_header_unselected">选定的日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">表示周几的列：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式无效。</string>
+    <string name="mtrl_picker_invalid_format_example">示例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">范围无效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">转到 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">不在允许的范围内：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">开始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 结束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">请选择范围</string>
+    <string name="mtrl_picker_range_header_unselected">开始日期 - 结束日期</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">结束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">开始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切换到日历输入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">点按即可切换到选择某天</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切换到文本字段输入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">点按即可切换到选择某年</string>
+    <string name="password_toggle_content_description">显示密码</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="ss_sl_strings_back_operation_summary_txt">滑动手指以返回到上一个屏幕</string>
+    <string name="ss_sl_strings_configure_toucharea_summary_txt">可以在此处微调侧感栏的位置、大小和透明度。此外，还可以通过按住侧感栏直接移动它。</string>
+    <string name="ss_sl_strings_configure_toucharea_title_txt">配置侧感栏</string>
+    <string name="ss_sl_strings_guidance_gesture_assign_txt">"可以使用侧感栏查看菜单或功能。默认情况下，双击将显示侧感菜单，向上滑动将显示多窗口菜单，向下滑动会返回到上一个屏幕。
+长按并拖动侧感栏，可以向上或向下移动它，或将它移动到屏幕中您喜欢的任意位置。"</string>
+    <string name="ss_sl_strings_guidance_plus_popup_txt">"通过执行屏幕边缘的侧感栏下方的手势，可轻松访问实用功能。
+- 双击：打开侧感菜单
+- 向上滑动：打开多窗口菜单
+- 向下滑动：上一个屏幕（返回）
+
+通过侧感菜单，您可以快速打开应用程序，以及在主屏幕上方的弹出窗口中显示其他应用程序。
+您只需从多窗口菜单中点按一两下，即可拆分屏幕并显示两个应用程序。"</string>
+    <string name="ss_sl_strings_guidance_txt">"屏幕侧面的侧感栏可使您轻松地用一只手使用设备。双击即可根据设备使用情况显示预测的应用程序。
+
+在侧感栏上滑动手指可返回到上一个屏幕。"</string>
+    <string name="ss_sl_strings_hide_toucharea_summary_txt">隐藏栏并禁用侧感功能以防止在与触摸屏交互时发生意外操作</string>
+    <string name="ss_sl_strings_hide_toucharea_title_txt">暂时禁用侧感功能</string>
+    <string name="ss_sl_strings_introduce_feature_dialog_body_not_21_9_txt">"[手势]
+您可以将操作分配给三个侧感手势（双击、向上滑动和向下滑动）中的任何一个。要更改此设置，请转到设定屏幕。
+
+[多窗口]
+此新菜单允许您选择要在分屏上显示的两个应用程序。您可以将此功能指定给侧感手势，或者在主屏幕上为其添加快捷方式。"</string>
+    <string name="ss_sl_strings_introduce_feature_dialog_body_txt">"[手势]
+您可以将操作分配给三个侧感手势（双击、向上滑动和向下滑动）中的任何一个。要更改此设置，请转到设定屏幕。
+
+[21:9多窗口]
+此新菜单允许您选择要在分屏上显示的两个应用程序。您可以将此功能指定给侧感手势，或者在主屏幕上为其添加快捷方式。"</string>
+    <string name="ss_sl_strings_introduce_feature_dialog_title_txt">侧感新功能</string>
+    <string name="ss_sl_strings_notification_content_mr_txt">点按此处可查看详细信息</string>
+    <string name="ss_sl_strings_notification_title_mr_txt">添加了新功能</string>
+    <string name="ss_sl_strings_parameter_title_txt">手势敏感度</string>
+    <string name="ss_sl_strings_toucharea_height_max_txt">长</string>
+    <string name="ss_sl_strings_toucharea_height_min_txt">短</string>
+    <string name="ss_sl_strings_toucharea_height_txt">长度</string>
+    <string name="ss_sl_strings_toucharea_reset_settings_txt">重置滑块</string>
+    <string name="ss_sl_strings_toucharea_title_txt">显示侧感栏</string>
+    <string name="ss_sl_strings_toucharea_transparency_max_txt">高</string>
+    <string name="ss_sl_strings_toucharea_transparency_min_txt">低</string>
+    <string name="ss_sl_strings_toucharea_transparency_txt">透明度</string>
+    <string name="ss_sl_strings_toucharea_vertical_pos_max_txt">高</string>
+    <string name="ss_sl_strings_toucharea_vertical_pos_min_txt">低</string>
+    <string name="ss_sl_strings_toucharea_vertical_pos_summary_txt">您也可以调整触摸位置指示器，方法是长按它，然后上下拖动它，或将它移动到屏幕中您喜欢的任意位置。</string>
+    <string name="ss_sl_strings_toucharea_vertical_pos_txt">位置</string>
+    <string name="ss_sl_strings_toucharea_width_max_txt">宽度</string>
+    <string name="ss_sl_strings_toucharea_width_min_txt">窄</string>
+    <string name="ss_sl_strings_toucharea_width_txt">宽度</string>
+    <string name="ss_sl_strings_welcome_introduction_txt">尝试双击此栏</string>
+    <string name="ss_sl_strings_welcome_multi_window_summary_osv_txt">"您可以通过拆分屏幕一次显示两个应用程序。选择要在屏幕的上半部分和下半部分显示的应用程序。
+您可以使用屏幕侧面的侧感栏打开多窗口菜单。"</string>
+    <string name="ss_sl_strings_welcome_multi_window_summary_txt">"您可以通过拆分屏幕同时显示两个应用程序。选择要在屏幕的上半部分和下半部分显示的应用程序。
+使用手指向上滑动侧感栏以打开多窗口菜单。"</string>
+    <string name="ss_sl_strings_welcome_summary_gesture_assign_txt">"通过双击或向上/向下滑动屏幕边缘的侧感栏，可以轻松访问实用功能。
+
+双击侧感栏时打开的侧感菜单包含推荐的应用程序图标列表，以便您快速打开应用程序。"</string>
+    <string name="ss_sl_strings_welcome_summary_txt">"双击屏幕侧面的侧感栏以根据设备使用情况显示预测的应用程序。
+
+在侧感栏上滑动手指可返回到上一个屏幕。"</string>
+    <string name="ss_strings_accessibility_multi_window_lower_box_txt">多窗口的下半部分。现在，您可以选择要在多窗口的下半部分显示的应用程序。</string>
+    <string name="ss_strings_accessibility_multi_window_upper_box_txt">多窗口的上半部分。现在，您可以选择要在多窗口的上部显示的应用程序。</string>
+    <string name="ss_strings_active_side_subheader_txt">激活的侧</string>
+    <string name="ss_strings_add_app_and_shortcut_txt">选择应用程序/快捷方式</string>
+    <string name="ss_strings_add_app_txt">添加应用程序</string>
+    <string name="ss_strings_add_widget_txt">添加小部件</string>
+    <string name="ss_strings_already_launched_toast">已打开的应用程序</string>
+    <string name="ss_strings_app_and_shortcut_not_available_dialog_body_txt">"未向该手势分配任何应用程序/快捷方式。
+
+在下一个屏幕中选择要分配给该手势的应用程序/快捷方式。"</string>
+    <string name="ss_strings_app_and_shortcut_not_available_toast_txt">应用程序/快捷方式不可用</string>
+    <string name="ss_strings_app_launcher_menu_title_txt">应用程序启动器菜单</string>
+    <string name="ss_strings_app_launcher_menu_txt">应用程序启动器菜单</string>
+    <string name="ss_strings_app_launcher_txt">应用程序启动器</string>
+    <string name="ss_strings_app_name_txt">侧感</string>
+    <string name="ss_strings_app_not_available_txt">此应用程序不可用</string>
+    <string name="ss_strings_assist_entry_txt">点按此处以充分利用您的Xperia</string>
+    <string name="ss_strings_automatic_toucharea_title_txt">自动</string>
+    <string name="ss_strings_back_operation_summary_txt">沿屏幕侧面的传感器滑动手指以返回到前一个窗格</string>
+    <string name="ss_strings_back_operation_title_txt">返回</string>
+    <string name="ss_strings_button_activate_txt">启用</string>
+    <string name="ss_strings_configure_toucharea_description_txt">侧感自动检测用户将触摸的位置</string>
+    <string name="ss_strings_configure_toucharea_summary_txt">设定侧感的工作位置以及检测触摸的方式</string>
+    <string name="ss_strings_configure_toucharea_title_txt">配置触摸位置</string>
+    <string name="ss_strings_dashboard_auto_rotate_txt">自动屏幕旋转</string>
+    <string name="ss_strings_dashboard_bluetooth_txt">蓝牙</string>
+    <string name="ss_strings_dashboard_desc_txt">通过仪表板，您可以快速更改或检查最常用设定的状态。</string>
+    <string name="ss_strings_dashboard_extra_dim_txt">极暗</string>
+    <string name="ss_strings_dashboard_flashlight_txt">手电筒</string>
+    <string name="ss_strings_dashboard_mobile_data_txt">移动数据</string>
+    <string name="ss_strings_dashboard_screenshot_txt">屏幕截图</string>
+    <string name="ss_strings_dashboard_tips_flick_down_txt">在侧感栏向下轻触：返回</string>
+    <string name="ss_strings_dashboard_tips_flick_up_txt">在侧感栏向上轻触：打开应用程序启动器菜单</string>
+    <string name="ss_strings_dashboard_txt">仪表板</string>
+    <string name="ss_strings_dashboard_wifi_txt">WLAN</string>
+    <string name="ss_strings_decline_side_sense_oobe_dialog_body_txt">"是否想关闭侧感？
+
+您可以稍后在设定中再次打开它。"</string>
+    <string name="ss_strings_decline_side_sense_oobe_dialog_button_turn_off_txt">关闭</string>
+    <string name="ss_strings_decline_side_sense_oobe_dialog_title_txt">侧感已检测到重复双击</string>
+    <string name="ss_strings_dialog_show_ss_bar_assign_txt">您可以在设定中更改各个手势对应的操作。</string>
+    <string name="ss_strings_dialog_show_ss_bar_desc_txt">您只需在屏幕边缘的侧感栏上执行手势（向内轻触屏幕/向上轻触/向下轻触），即可随时访问菜单和便捷功能。</string>
+    <string name="ss_strings_dialog_show_ss_bar_title_txt">侧感栏可用</string>
+    <string name="ss_strings_dialog_sidesense_autodisabled_txt">"侧感目前不可用。
+启用此设定可再次使用侧感。"</string>
+    <string name="ss_strings_dialog_sidesense_autoenabled_txt">您现在可以使用侧感了</string>
+    <string name="ss_strings_dialog_sidesense_deactivated_txt">要使用此功能，请在下一个屏幕上启用“侧感” > “显示在其他应用的上层”。</string>
+    <string name="ss_strings_enable_show_sidebar_summary2_txt">即使侧感栏处于隐藏状态，您也可以使用快捷方式（例如，主屏幕上的应用程序启动器）显示该菜单。</string>
+    <string name="ss_strings_enable_show_sidebar_summary_txt">即使侧感栏处于隐藏状态，您也可以使用快捷方式（例如，主屏幕上的窗口管理器）显示该菜单。</string>
+    <string name="ss_strings_enable_show_sidebar_title_txt">使用侧感栏</string>
+    <string name="ss_strings_enabled_app_summary_txt">可以选择要为每个应用程序显示还是隐藏侧感栏</string>
+    <string name="ss_strings_enabled_app_title_txt">选择使用侧感栏的应用程序</string>
+    <string name="ss_strings_error_toast_cannot_open_multi_window_from_popup_window_txt">关闭弹出窗口并重试</string>
+    <string name="ss_strings_fixed_toucharea_subheader_txt">触摸位置</string>
+    <string name="ss_strings_fixed_toucharea_title_txt">手动</string>
+    <string name="ss_strings_gesture_app_and_shortcut_no_assign_txt">未选择任何项目</string>
+    <string name="ss_strings_gesture_app_and_shortcut_txt">启动应用程序/快捷方式</string>
+    <string name="ss_strings_gesture_app_launcher_menu_txt">打开应用程序启动器菜单</string>
+    <string name="ss_strings_gesture_category_general_txt">常规</string>
+    <string name="ss_strings_gesture_category_menu_txt">菜单</string>
+    <string name="ss_strings_gesture_category_other_txt">其他</string>
+    <string name="ss_strings_gesture_category_shortcut_txt">快捷方式</string>
+    <string name="ss_strings_gesture_dashboard_txt">打开仪表板</string>
+    <string name="ss_strings_gesture_double_tap_txt">双击</string>
+    <string name="ss_strings_gesture_dualdrive_txt">打开多窗口切换</string>
+    <string name="ss_strings_gesture_flick_down_txt">向下轻触</string>
+    <string name="ss_strings_gesture_flick_inside_txt">向内轻触屏幕</string>
+    <string name="ss_strings_gesture_flick_up_txt">向上轻触</string>
+    <string name="ss_strings_gesture_home_txt">转到主屏幕</string>
+    <string name="ss_strings_gesture_last_used_app_txt">打开上次使用的应用程序</string>
+    <string name="ss_strings_gesture_multi_window_menu_txt">打开多窗口菜单</string>
+    <string name="ss_strings_gesture_navigate_back_txt">返回上一屏幕</string>
+    <string name="ss_strings_gesture_none_txt">无任何操作</string>
+    <string name="ss_strings_gesture_notification_panel_txt">打开通知面板</string>
+    <string name="ss_strings_gesture_onehanded_mode_txt">启用单手模式</string>
+    <string name="ss_strings_gesture_recent_apps_txt">打开最近使用的应用程序</string>
+    <string name="ss_strings_gesture_screenshot_txt">拍摄屏幕截图</string>
+    <string name="ss_strings_gesture_side_sense_menu_txt">打开侧感菜单</string>
+    <string name="ss_strings_gesture_slide_down_txt">向下滑动</string>
+    <string name="ss_strings_gesture_slide_up_txt">向上滑动</string>
+    <string name="ss_strings_gesture_summary_txt">自定义可使用手势激活的实用功能。例如，您可以通过一个操作截取屏幕截图或打开应用程序。</string>
+    <string name="ss_strings_gesture_title_txt">手势功能分配</string>
+    <string name="ss_strings_guidance_desc1_txt">通过执行屏幕边缘的侧感栏下方的手势，可轻松访问实用功能。</string>
+    <string name="ss_strings_guidance_desc2_txt">- 向内轻触屏幕：打开仪表板</string>
+    <string name="ss_strings_guidance_desc3_txt">- 向上轻触：打开应用程序启动器菜单</string>
+    <string name="ss_strings_guidance_desc4_txt">- 向下轻触：上一个屏幕（返回）</string>
+    <string name="ss_strings_guidance_desc5_txt">您可以从仪表板快速更改或检查最常用设定的状态。</string>
+    <string name="ss_strings_guidance_desc6_txt">通过应用程序启动器菜单，您可以快速打开应用程序，以及在主屏幕上方的弹出窗口中显示其他应用程序。您只需打开多窗口菜单，即可拆分屏幕并显示两个应用程序。</string>
+    <string name="ss_strings_guidance_entry_txt">点按此处了解有关“侧感”的更多信息</string>
+    <string name="ss_strings_guidance_gesture_assign_txt">屏幕侧面的传感器使您可以用一只手轻松使用设备。默认情况下，双击会根据您的设备使用情况显示预测的应用程序，向上滑动会切换到多窗口模式，向下滑动会返回到上一个屏幕。</string>
+    <string name="ss_strings_guidance_txt">"屏幕侧面的传感器可使您轻松地用一只手使用设备。双击即可显示根据设备使用情况预测的应用程序。
+
+向上或向下滑动手指可返回到上一个屏幕。"</string>
+    <string name="ss_strings_guide_route23_dialog_body_txt">您可以随时从“设定 > 操作和视图 > 多任务使用指南”再次访问本指南</string>
+    <string name="ss_strings_guide_route_dialog_body_txt">您可以随时从“设定 > 外观 > 多任务使用指南”再次访问本指南</string>
+    <string name="ss_strings_guide_summary_in_appearaces_nopopup_txt">查看分屏和侧感功能的说明</string>
+    <string name="ss_strings_guide_summary_in_appearaces_txt">查看分屏、弹出窗口和侧感功能的说明</string>
+    <string name="ss_strings_guide_title_in_appearaces_txt">多任务使用指南</string>
+    <string name="ss_strings_guide_top_title_txt">多任务指南</string>
+    <string name="ss_strings_hpc_desc_txt">您可以直接从仪表板控制耳机设定</string>
+    <string name="ss_strings_hpc_enable_widget_summary_txt">您可以直接从侧感菜单控制耳机设定</string>
+    <string name="ss_strings_hpc_enable_widget_title_txt">添加耳机控件</string>
+    <string name="ss_strings_hpc_notification_content_txt">您可以直接从侧感菜单控制耳机设定</string>
+    <string name="ss_strings_hpc_notification_title_txt">轻松调整耳机设定</string>
+    <string name="ss_strings_hpc_pls_on_sidesense_dialog_body_txt">在下一个屏幕上打开侧感</string>
+    <string name="ss_strings_hpc_widget_info_button_ok_txt">添加</string>
+    <string name="ss_strings_hpc_widget_info_content_txt">是否在此处添加耳机控制面板？</string>
+    <string name="ss_strings_inside_toucharea_summary_txt">这使得能够在屏幕上操作侧感，例如，当设备的边缘被外壳覆盖时</string>
+    <string name="ss_strings_inside_toucharea_title_txt">在屏幕内边缘操作</string>
+    <string name="ss_strings_intelligence_engine_entry_txt">点按此处以改进应用程序预测准确性</string>
+    <string name="ss_strings_intelligence_engine_summary_txt">允许访问位置数据以提高在侧感菜单上显示的应用程序的预测准确性</string>
+    <string name="ss_strings_intelligence_engine_title_txt">提高预测准确性</string>
+    <string name="ss_strings_lockscreen_sidesense_txt">在锁定屏幕上启用侧感</string>
+    <string name="ss_strings_lockscreen_txt">在锁定屏幕上显示侧感菜单</string>
+    <string name="ss_strings_longtouch_timer_long_txt">慢</string>
+    <string name="ss_strings_longtouch_timer_longest_txt">非常慢</string>
+    <string name="ss_strings_longtouch_timer_normal_txt">默认值</string>
+    <string name="ss_strings_longtouch_timer_short_txt">快速</string>
+    <string name="ss_strings_longtouch_timer_summary_txt">选择较快的选项以缩短长按所需的时间，然后才能移动栏或浮动图标</string>
+    <string name="ss_strings_longtouch_timer_title_txt">滑动速度</string>
+    <string name="ss_strings_main_and_popup_tab_txt">主窗口和弹出窗口</string>
+    <string name="ss_strings_max_popupwindow_guide_description_txt">"适合快速的短暂性操作。
+在诸如以下情况下，可从通知中启动最大化弹出窗口：
+1. 在主屏幕中查看浏览器的同时，收到电子邮件通知。
+2. 在弹出窗口启动了电子邮件应用程序。
+3. 阅读并回复电子邮件。
+4. 关闭弹出窗口，主屏幕恢复到初始状态。
+
+*在步骤1中，如果在分屏中使用两个应用程序，例如视频和浏览器，则当您在步骤4中返回到主屏幕时，这两个应用程序的状态将保留不变。"</string>
+    <string name="ss_strings_max_popupwindow_guide_title_txt">最大化</string>
+    <string name="ss_strings_menu_all_apps_txt">所有应用</string>
+    <string name="ss_strings_menu_more_apps_txt">更多应用程序</string>
+    <string name="ss_strings_menu_munti_window_setting_txt">多窗口</string>
+    <string name="ss_strings_menu_not_available_txt">侧感菜单现在不可用</string>
+    <string name="ss_strings_menu_notification_txt">通知</string>
+    <string name="ss_strings_menu_onehand_txt">单手模式</string>
+    <string name="ss_strings_menu_screenshot_txt">截取屏幕截图</string>
+    <string name="ss_strings_menu_settings_txt">高级</string>
+    <string name="ss_strings_multi_window_add_pair_txt">添加配对</string>
+    <string name="ss_strings_multi_window_app_not_set_txt">未选中任何应用程序</string>
+    <string name="ss_strings_multi_window_bottom_app_txt">下部</string>
+    <string name="ss_strings_multi_window_cancel_txt">退出多窗口</string>
+    <string name="ss_strings_multi_window_create_pair_description_txt">多窗口菜单中将显示三对应用程序。您可以自己创建这些应用程序对。在这三对中，多窗口将根据您的应用使用情况来建议您未创建的应用程序对。</string>
+    <string name="ss_strings_multi_window_create_pair_summary_txt">您可以为经常使用的应用程序对创建快捷方式。它们将显示在多窗口菜单中。</string>
+    <string name="ss_strings_multi_window_create_pair_title_txt">一对设定</string>
+    <string name="ss_strings_multi_window_dialog_body_txt">这是多窗口菜单的快捷方式。由于此菜单是侧感功能之一，因此必须在设定中启用侧感才能使用它。</string>
+    <string name="ss_strings_multi_window_dialog_button_enable_txt">转到“设定”</string>
+    <string name="ss_strings_multi_window_dialog_title_txt">多窗口</string>
+    <string name="ss_strings_multi_window_dialog_title_wide_screen_txt">21:9多窗口</string>
+    <string name="ss_strings_multi_window_done_txt">保存</string>
+    <string name="ss_strings_multi_window_launcher_txt">多窗口</string>
+    <string name="ss_strings_multi_window_launcher_wide_screen_txt">21:9多窗口</string>
+    <string name="ss_strings_multi_window_menu_change_app_txt">更改</string>
+    <string name="ss_strings_multi_window_menu_select_app_txt">选择应用程序</string>
+    <string name="ss_strings_multi_window_menu_summary_txt">您可以从最喜爱的应用程序中选择两个并将其设置为一对，以便点按一次即可同时打开这两个应用程序</string>
+    <string name="ss_strings_multi_window_menu_title_txt">多窗口菜单</string>
+    <string name="ss_strings_multi_window_not_available_txt">使用%s期间无法使用此功能</string>
+    <string name="ss_strings_multi_window_remove_pair_dialog_body_txt">从多窗口菜单中删除选定的配对？</string>
+    <string name="ss_strings_multi_window_remove_pair_dialog_title_txt">删除配对</string>
+    <string name="ss_strings_multi_window_side_sense_menu_txt">侧感菜单</string>
+    <string name="ss_strings_multi_window_summary1_txt">您可以通过拆分屏幕同时显示两个应用程序。选择要在屏幕的上半部分和下半部分显示的应用程序。</string>
+    <string name="ss_strings_multi_window_summary2_txt">您也可以从应用程序启动器菜单切换到多窗口菜单。</string>
+    <string name="ss_strings_multi_window_summary_select_bottom_txt">选择要在下部窗口中显示的应用程序</string>
+    <string name="ss_strings_multi_window_summary_select_top_txt">选择要在上部窗口中显示的应用程序</string>
+    <string name="ss_strings_multi_window_swap_land_txt">交换窗口</string>
+    <string name="ss_strings_multi_window_swap_txt">交换窗口</string>
+    <string name="ss_strings_multi_window_title_txt">多窗口</string>
+    <string name="ss_strings_multi_window_title_wide_screen_txt">21:9多窗口</string>
+    <string name="ss_strings_multi_window_top_app_txt">上部</string>
+    <string name="ss_strings_multiwindow_guide_description_txt">"您可以通过拆分屏幕同时显示和控制两个应用程序。
+例如，您可以在高屏幕的上部分观看横屏视频，同时在下部分滚动浏览完整大小的网页。
+
+*某些应用程序可能不支持分屏"</string>
+    <string name="ss_strings_multiwindow_guide_link_txt">有关分屏（多窗口）的更多信息</string>
+    <string name="ss_strings_multiwindow_guide_summary_txt">可利用高屏幕同时显示两个应用程序</string>
+    <string name="ss_strings_multiwindow_guide_title_txt">分屏（多窗口）</string>
+    <string name="ss_strings_multiwindow_menu_guide_desc_txt">"应用程序启动器菜单中同样也会显示推荐的应用程序，您可以快速在分屏中启动两个应用程序。
+点按菜单旁边的方框，再点按应用程序图标，可以指定要在顶部和底部显示的应用程序。"</string>
+    <string name="ss_strings_multiwindow_menu_guide_description_txt">"侧感菜单中同样也会显示推荐的应用程序，您可以快速在分屏中启动两个应用程序。
+点按菜单旁边的方框，再点按应用程序图标，可以指定要在顶部和底部显示的应用程序。"</string>
+    <string name="ss_strings_multiwindow_menu_guide_link_txt">有关侧感和多窗口菜单的更多信息</string>
+    <string name="ss_strings_multiwindow_menu_guide_title_txt">多窗口菜单</string>
+    <string name="ss_strings_mute_dialog_title_txt">关闭侧感栏</string>
+    <string name="ss_strings_mute_instruction_dialog_body_txt">"可以选择是否在某些应用程序中关闭[侧感栏]，以便专注于应用程序或更轻松地导航应用程序。
+
+要在使用应用程序时隐藏[侧感栏]，请关闭该应用程序的[在下一个屏幕上从列表切换]。"</string>
+    <string name="ss_strings_mute_route_dialog_body_txt">可以从[设定] > [显示] > [侧感] > [选择使用侧感栏的应用程序]随时更改这些设定</string>
+    <string name="ss_strings_mute_title_txt">关闭侧感</string>
+    <string name="ss_strings_not_available_landscape_txt">要在横向模式下使用此功能，请首先在纵向模式下启动</string>
+    <string name="ss_strings_notification_content_txt">点按此处了解更多信息</string>
+    <string name="ss_strings_notification_entry_txt">如何使用侧感</string>
+    <string name="ss_strings_notification_title_txt">单手使用您的设备</string>
+    <string name="ss_strings_onehand_not_available_txt">单手模式暂时不可用</string>
+    <string name="ss_strings_onehand_off_toast_txt">在显示中打开单手模式后可使用该模式</string>
+    <string name="ss_strings_parameter_double_tap_default_txt">默认值</string>
+    <string name="ss_strings_parameter_double_tap_slow_txt">慢</string>
+    <string name="ss_strings_parameter_double_tap_slowest_txt">非常慢</string>
+    <string name="ss_strings_parameter_double_tap_summary_txt">调整双击速度</string>
+    <string name="ss_strings_parameter_double_tap_title_txt">双击速度</string>
+    <string name="ss_strings_parameter_slide_default_txt">默认值</string>
+    <string name="ss_strings_parameter_slide_long_txt">长</string>
+    <string name="ss_strings_parameter_slide_short_txt">短</string>
+    <string name="ss_strings_parameter_slide_summary_txt">调整上下滑动手势的长度</string>
+    <string name="ss_strings_parameter_slide_title_txt">滑动长度</string>
+    <string name="ss_strings_parameter_summary_txt">调整滑动书写速度和滑动长度</string>
+    <string name="ss_strings_parameter_title_txt">敏感度</string>
+    <string name="ss_strings_permission_dialog_button_go_to_app_info_txt">应用程序信息</string>
+    <string name="ss_strings_permission_dialog_message1_txt">应用程序需要以下权限才能执行此操作。</string>
+    <string name="ss_strings_permission_dialog_message_go_to_settings_txt">要授予权限，请转到“应用程序信息”>“权限”。</string>
+    <string name="ss_strings_permission_dialog_title_txt">无法继续</string>
+    <string name="ss_strings_permission_rationale_location_txt">控制蓝牙功能</string>
+    <string name="ss_strings_popupwindow_guide_description_txt">"您可在主屏幕上的叠加窗口中显示和使用另一个应用程序。
+通过结合使用分屏，一次最多可以显示三个应用程序。
+可以启动最大化或大小可调的弹出窗口。
+
+*某些应用程序可能不支持弹出窗口
+*弹出窗口可能不可用，具体取决于主屏幕上的应用程序设定的条件。
+*一次只能打开一个弹出窗口。如果打开新的弹出窗口，之前打开的弹出窗口将关闭。"</string>
+    <string name="ss_strings_popupwindow_guide_link_txt">有关弹出窗口的更多信息</string>
+    <string name="ss_strings_popupwindow_guide_summary_txt">您可在主屏幕上的叠加窗口中显示和使用另一个应用程序</string>
+    <string name="ss_strings_popupwindow_guide_title_txt">弹出窗口</string>
+    <string name="ss_strings_registered_app_aupay_not_installed_txt">au PAY（未安装）</string>
+    <string name="ss_strings_remove_app_dialog_body_txt">是否从侧感菜单中删除所选应用程序？</string>
+    <string name="ss_strings_remove_app_dialog_title_txt">删除应用程序</string>
+    <string name="ss_strings_remove_txt">删除</string>
+    <string name="ss_strings_remove_widget_dialog_body_txt">是否从%s菜单中删除所选小部件？</string>
+    <string name="ss_strings_remove_widget_dialog_title_txt">删除小部件</string>
+    <string name="ss_strings_resizable_popupwindow_guide_description_txt">"适合同时使用最多三个应用程序的情况。
+从最近使用的应用程序屏幕或侧感菜单启动时，将显示大小可调的弹出窗口。
+例如，您可以在一个较小的弹出窗口中显示视频，同时在主屏幕中使用浏览器。
+
+*您可以自由更改大小可调的弹出窗口的大小和位置。弹出窗口还可以变为图标，从而变得更小。"</string>
+    <string name="ss_strings_resizable_popupwindow_guide_title_txt">大小可调</string>
+    <string name="ss_strings_resizable_tips_popupwindow_guide_description_txt">"当弹出窗口的左上角显示大小调整手柄时，您可以向左上角倾斜调整其大小。
+根据窗口在屏幕上的位置，手柄可能会自动改变位置。
+
+此外，还有一种无需移动窗口即可在任何方向调整窗口大小的方法。
+
+例如，如果您将手柄拖到窗口下方，则可以向左下角调整其大小。
+您可以使用此方法在任何方向调整窗口大小。"</string>
+    <string name="ss_strings_resizable_tips_popupwindow_guide_link_txt">有关大小调整方法的更多信息</string>
+    <string name="ss_strings_resizable_tips_popupwindow_guide_title_txt">大小调整实用提示</string>
+    <string name="ss_strings_select_app_and_shortcut_description_for_app_launcher_txt">"根据设备使用情况预测的前8个应用/快捷方式显示在应用程序启动器菜单（主窗口和弹出窗口）中。
+如果希望显示您的首选应用程序/快捷方式，可以手动将其添加到以下列表。最大项目数为12，但使用“推荐”功能可以添加更多项目。"</string>
+    <string name="ss_strings_select_app_and_shortcut_description_txt">"根据设备使用情况预测的前8个应用/快捷方式显示在侧感菜单中。
+如果希望显示您的首选应用程序/快捷方式，可以手动将其添加到以下列表。最大项目数为12，但使用“推荐”功能可以添加更多项目。"</string>
+    <string name="ss_strings_select_app_description_txt">侧感菜单根据设备使用情况自动显示8个应用程序预测。您也可以选择自己喜欢的应用程序。如果所选应用程序的数量少于8个，则侧感将建议使用其余应用程序。</string>
+    <string name="ss_strings_select_app_txt">选择要显示的应用程序</string>
+    <string name="ss_strings_select_widget_description_txt">您可以添加、删除或更改要在侧感菜单上显示的所有小部件的顺序。</string>
+    <string name="ss_strings_select_widget_txt">选择小部件</string>
+    <string name="ss_strings_settings_off_txt">关闭</string>
+    <string name="ss_strings_settings_on_txt">开启</string>
+    <string name="ss_strings_shortcut_offer_dialog_body_txt">选择要在侧感菜单中显示的快捷方式</string>
+    <string name="ss_strings_shortcut_offer_dialog_title_txt">推荐</string>
+    <string name="ss_strings_side_sense_dialog_body_txt">这是侧感菜单的快捷方式。必须在设定中启用侧感才能使用它。</string>
+    <string name="ss_strings_side_sense_dialog_title_txt">侧感</string>
+    <string name="ss_strings_side_sense_menu_header_txt">侧感</string>
+    <string name="ss_strings_side_sense_menu_summary_txt">自定义显示主窗口（全屏）的应用程序</string>
+    <string name="ss_strings_side_sense_menu_title_txt">侧感菜单</string>
+    <string name="ss_strings_side_sense_multi_window_not_available_txt">%s不能与多窗口结合使用</string>
+    <string name="ss_strings_side_sense_not_available_txt">现在无法使用此功能</string>
+    <string name="ss_strings_side_sense_summary_select_main_txt">点按方框以选择要启动的应用程序</string>
+    <string name="ss_strings_side_sense_summary_select_popup_window_txt">在弹出窗口中选择要启动的应用程序</string>
+    <string name="ss_strings_side_sense_turned_off_txt">侧感已关闭</string>
+    <string name="ss_strings_sidesense_guide_desc1_txt">向内轻触屏幕或上下轻触屏幕侧面的条栏可访问各个菜单和功能。</string>
+    <string name="ss_strings_sidesense_guide_desc2_txt">即使您正在使用某个应用程序，也可以用一只手快速方便地执行这些手势，而无需返回主屏幕。</string>
+    <string name="ss_strings_sidesense_guide_desc3_txt">您可以自定义分配给每个手势的操作。</string>
+    <string name="ss_strings_sidesense_guide_desc_txt">向内轻触屏幕或上下轻触屏幕侧面的条栏可访问各个菜单和功能</string>
+    <string name="ss_strings_sidesense_guide_description_touch_txt">"在屏幕边缘上双击或上下滑动可访问各个菜单和功能。
+即使正在使用某个应用程序，也可以用一只手快速方便地执行这些手势，而无需返回主屏幕。
+
+- 双击：打开侧感菜单
+- 向上滑动：打开多窗口菜单
+- 向下滚动：上一个屏幕（返回）
+您可以自定义分配给每个手势的操作。"</string>
+    <string name="ss_strings_sidesense_guide_description_txt">"双击或上下滚动屏幕侧面的条栏可访问各个菜单和功能。
+即使正在使用某个应用程序，也可以用一只手快速方便地执行这些手势，而无需返回主屏幕。
+
+- 双击：打开侧感菜单
+- 向上滑动：打开多窗口菜单
+- 向下滚动：上一个屏幕（返回）
+您可以自定义分配给每个手势的动作。
+
+*按住并移动侧感栏，可更改其位置。此外，如果将侧感栏向屏幕中间移动，它将变成可放在任意位置的圆圈。您可以对此圆圈使用上述手势，它们仍然具有先前分配给它们的动作。"</string>
+    <string name="ss_strings_sidesense_guide_link_button_txt">查看侧感使用指南</string>
+    <string name="ss_strings_sidesense_guide_link_txt">有关侧感的更多信息</string>
+    <string name="ss_strings_sidesense_guide_summary_touch_txt">在屏幕边缘上双击或上下滑动可访问各个菜单和功能</string>
+    <string name="ss_strings_sidesense_guide_summary_txt">双击或上下滚动屏幕侧面的条栏可访问各个菜单和功能</string>
+    <string name="ss_strings_sidesense_menu_guide_description_nopopup_txt">将根据您的使用历史记录显示推荐的应用程序，因此您可以快速启动某个应用程序。您也可以显示通知并打开单手模式等功能。</string>
+    <string name="ss_strings_sidesense_menu_guide_description_txt">"将根据您的使用历史记录显示推荐的应用程序，因此您可以快速启动某个应用程序。
+除了启动全屏应用程序之外，您还可以在其他应用程序上叠加的更小弹出窗口中启动单独的应用程序。"</string>
+    <string name="ss_strings_sidesense_settings_link_txt">更改侧感设定</string>
+    <string name="ss_strings_sidesense_settings_summary_txt">您可以随时通过一个操作来访问菜单和便于使用的功能</string>
+    <string name="ss_strings_subheader_custom_menus_txt">菜单自定义</string>
+    <string name="ss_strings_subheader_custom_window_manager_menus_txt">窗口管理器（菜单）</string>
+    <string name="ss_strings_subheader_txt">手势</string>
+    <string name="ss_strings_toucharea_height_max_txt">长</string>
+    <string name="ss_strings_toucharea_height_min_txt">短</string>
+    <string name="ss_strings_toucharea_height_txt">长度</string>
+    <string name="ss_strings_toucharea_reset_settings_txt">重置滑块</string>
+    <string name="ss_strings_toucharea_summary_both_txt">两侧</string>
+    <string name="ss_strings_toucharea_summary_left_txt">左侧</string>
+    <string name="ss_strings_toucharea_summary_right_txt">右侧</string>
+    <string name="ss_strings_toucharea_title_txt">已启用侧</string>
+    <string name="ss_strings_toucharea_transparency_max_txt">高</string>
+    <string name="ss_strings_toucharea_transparency_min_txt">低</string>
+    <string name="ss_strings_toucharea_transparency_summary_txt">调整指示侧感触摸位置指南的透明度</string>
+    <string name="ss_strings_toucharea_transparency_txt">透明度</string>
+    <string name="ss_strings_toucharea_vertical_pos_max_txt">高</string>
+    <string name="ss_strings_toucharea_vertical_pos_min_txt">低</string>
+    <string name="ss_strings_toucharea_vertical_pos_txt">位置</string>
+    <string name="ss_strings_transform_popup_title_txt">弹出窗口</string>
+    <string name="ss_strings_tutorial_double_tap_lesson_error_1_txt">双击慢一点</string>
+    <string name="ss_strings_tutorial_double_tap_lesson_error_2_txt">双击快一点</string>
+    <string name="ss_strings_tutorial_double_tap_lesson_error_3_txt">点按同一个位置两次</string>
+    <string name="ss_strings_tutorial_double_tap_lesson_ongong_title_txt">尝试双击</string>
+    <string name="ss_strings_tutorial_double_tap_text_txt">"在下一页，您可以练习双击。
+您可以通过双击屏幕边缘从任何屏幕打开侧感菜单，从而允许您切换应用程序而无需返回到主屏幕等。"</string>
+    <string name="ss_strings_tutorial_double_tap_title_txt">双击</string>
+    <string name="ss_strings_tutorial_finish_button_txt">退出教程</string>
+    <string name="ss_strings_tutorial_finish_text_txt">您还可以在设定中更改双击速度和滑动长度。</string>
+    <string name="ss_strings_tutorial_finish_title_txt">您已经完成了所有课程</string>
+    <string name="ss_strings_tutorial_learn_text_txt">"您可以通过双击屏幕或沿屏幕左侧或右侧边缘滑动手指来练习使用侧感。
+注意：本教程不会启动侧感菜单和其他功能。"</string>
+    <string name="ss_strings_tutorial_learn_title_txt">让我们尝试使用侧感</string>
+    <string name="ss_strings_tutorial_lesson_end_lesson_txt">结束课程</string>
+    <string name="ss_strings_tutorial_lesson_error_1_txt">触摸屏幕边缘，而不是设备边缘。</string>
+    <string name="ss_strings_tutorial_lesson_error_2_txt">触摸稍微接近设备边缘的位置</string>
+    <string name="ss_strings_tutorial_lesson_finish_text_txt">要再次练习，请关闭此屏幕，然后重新打开。</string>
+    <string name="ss_strings_tutorial_lesson_finish_title_txt">成功！</string>
+    <string name="ss_strings_tutorial_lesson_next_lesson_txt">下一课</string>
+    <string name="ss_strings_tutorial_lesson_ongong_text_txt">"您将看到侧感已检测到您的触摸。
+请使用屏幕边缘。"</string>
+    <string name="ss_strings_tutorial_next_txt">下一页</string>
+    <string name="ss_strings_tutorial_previous_txt">上一步</string>
+    <string name="ss_strings_tutorial_request_double_tap_txt">请在本课程中练习双击</string>
+    <string name="ss_strings_tutorial_request_slide_down_txt">请在本课程中练习向下滑动</string>
+    <string name="ss_strings_tutorial_request_slide_up_txt">请在本课程中练习向上滑动</string>
+    <string name="ss_strings_tutorial_slide_down_lesson_ongong_title_txt">尝试向下滑动</string>
+    <string name="ss_strings_tutorial_slide_down_text_txt">"最后，试试向下滑动。
+这样做，即使手指无法触及后退按钮，您也可以使用侧感轻松返回到上一屏幕。"</string>
+    <string name="ss_strings_tutorial_slide_down_title_txt">向下滑动</string>
+    <string name="ss_strings_tutorial_slide_lesson_error_1_txt">将手指滑动得更远一点</string>
+    <string name="ss_strings_tutorial_slide_lesson_error_2_txt">将手指滑动得更慢一点</string>
+    <string name="ss_strings_tutorial_slide_up_lesson_ongong_title_txt">尝试向上滑动</string>
+    <string name="ss_strings_tutorial_slide_up_text_txt">"在下一页，您可以练习向上滑动。
+此功能显示多窗口菜单，可以使用侧感从任何屏幕打开。"</string>
+    <string name="ss_strings_tutorial_slide_up_title_txt">向上滑动</string>
+    <string name="ss_strings_tutorial_start_txt">试用侧感教程</string>
+    <string name="ss_strings_tutorial_try_now_txt">立即试用</string>
+    <string name="ss_strings_via_app_launcher_menu_guide_desc_txt">您可以通过应用程序启动器菜单，在可调大小的弹出窗口中启动应用程序。</string>
+    <string name="ss_strings_via_app_launcher_menu_guide_title_txt">从应用程序启动器菜单启动</string>
+    <string name="ss_strings_via_gameenhancer_menu_guide_description_txt">通过从游戏增强器菜单启动弹出窗口，可在玩游戏的同时与朋友交谈或查看社交媒体。游戏增强器独有的功能即将推出。</string>
+    <string name="ss_strings_via_gameenhancer_menu_guide_title_txt">从游戏增强器启动</string>
+    <string name="ss_strings_via_multiwindow_menu_guide_desc_txt">在应用程序启动器菜单上选择标签时会显示多窗口菜单，在其中点按两下即可在分屏中快速启动两个应用程序。</string>
+    <string name="ss_strings_via_multiwindow_menu_guide_description_touch_txt">在当在屏幕边缘上向上滑动显示的多窗口菜单中，点按两下即可在分屏中快速启动两个应用程序。</string>
+    <string name="ss_strings_via_multiwindow_menu_guide_description_txt">在向上滚动侧感栏时显示的多窗口菜单中，点按两下即可在分屏中快速启动两个应用程序。</string>
+    <string name="ss_strings_via_multiwindow_menu_guide_title_txt">从多窗口菜单激活分屏</string>
+    <string name="ss_strings_via_multiwindow_switch_guide_desc1_txt">您可以从推荐应用程序卡直观地选择要在上下两个窗口中显示的应用程序。所显示的应用程序是根据您的使用历史记录推荐的。</string>
+    <string name="ss_strings_via_multiwindow_switch_guide_desc2_txt">点按最近使用的应用程序屏幕底部的多窗口切换图标可显示多窗口切换。</string>
+    <string name="ss_strings_via_multiwindow_switch_guide_description_txt">"可从推荐应用程序卡直观地选择要在上下两个窗口中显示的应用程序。所显示的应用程序是根据您的使用历史记录推荐的。
+
+使用以下方法显示多窗口切换：
+- 点按最近使用的应用程序屏幕底部的多窗口切换图标
+- 在点按分屏中的上下两个窗口之间的边界时，会显示一个多窗口切换图标，请点按该图标"</string>
+    <string name="ss_strings_via_multiwindow_switch_guide_title_txt">从多窗口切换激活分屏</string>
+    <string name="ss_strings_via_recents_guide_description_txt">您可以在最近使用的应用程序屏幕中指定一个应用程序，以在大小可调的弹出窗口中启动。</string>
+    <string name="ss_strings_via_recents_guide_title_txt">从最近使用的应用程序屏幕启动</string>
+    <string name="ss_strings_via_sidesense_menu_guide_description_txt">您可以通过侧感菜单，在可调大小的弹出窗口中启动应用程序。</string>
+    <string name="ss_strings_via_sidesense_menu_guide_title_txt">从侧感菜单启动</string>
+    <string name="ss_strings_welcome_app_launcher_disc1_txt">向上轻触屏幕边缘的侧感栏时打开的应用程序启动器菜单包含推荐的应用程序图标列表，以便您快速打开应用程序。</string>
+    <string name="ss_strings_welcome_app_launcher_disc2_txt">当您想要在主屏幕上叠加的弹出窗口中使用应用程序时，您也可以从此处启动应用程序。</string>
+    <string name="ss_strings_welcome_app_launcher_title_txt">应用程序启动器</string>
+    <string name="ss_strings_welcome_button_txt">启动</string>
+    <string name="ss_strings_welcome_intro_txt">请尝试朝着屏幕向内轻触条栏</string>
+    <string name="ss_strings_welcome_introduction_txt">尝试双击屏幕侧面的传感器</string>
+    <string name="ss_strings_welcome_multi_window_summary_osv_txt">"您可以拆分屏幕，同时查看两个应用程序。选择要在顶部和底部显示的应用程序。
+您还可以使用屏幕边缘的侧感打开多窗口菜单。"</string>
+    <string name="ss_strings_welcome_multi_window_summary_txt">"您可以拆分屏幕，同时查看两个应用程序。选择要在顶部和底部显示的应用程序。
+将手指滑到屏幕边缘以打开多窗口菜单。"</string>
+    <string name="ss_strings_welcome_multi_window_title_txt">多窗口</string>
+    <string name="ss_strings_welcome_multi_window_title_wide_screen_txt">21:9多窗口</string>
+    <string name="ss_strings_welcome_summary_gesture_assign_txt">"屏幕侧面的传感器使您可以用一只手轻松使用设备。
+此传感器具有多种用途，例如双击可查看侧感菜单，向下滑动可返回到上一个屏幕，或者向上滑动可查看多窗口菜单。"</string>
+    <string name="ss_strings_welcome_summary_txt">"双击屏幕侧面的传感器以显示根据设备使用情况预测的应用程序。
+
+向上或向下滑动手指以返回到上一个屏幕。"</string>
+    <string name="ss_strings_welcome_title_txt">侧感</string>
+    <string name="ss_strings_window_manager_launcher_txt">窗口管理器</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
+    <string name="v7_preference_off">关闭</string>
+    <string name="v7_preference_on">开启</string>
+</resources>

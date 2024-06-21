@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/apps_view_layout" android:clickable="true" android:clipChildren="false" android:layout_width="@dimen/pair_apps_view_width" android:layout_height="@dimen/pair_apps_view_height" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

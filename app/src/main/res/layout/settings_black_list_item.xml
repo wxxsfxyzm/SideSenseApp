@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/view_list_field" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/settings_black_list_item_height" android:paddingStart="@dimen/settings_activity_item_padding_side" android:paddingEnd="@dimen/settings_activity_item_padding_side"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:focusable="false" android:layout_width="@dimen/settings_black_list_item_icon_size" android:layout_height="@dimen/settings_black_list_item_icon_size" android:contentDescription="@null" android:layout_marginEnd="@dimen/settings_black_list_item_icon_margin" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/settings_black_list_item_text_size" android:textColor="@color/settings_activity_item_text_color" android:ellipsize="end" android:id="@id/view_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="0.0dip">
+        <Switch android:id="@id/switch_view" android:focusable="false" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Switch.SettingsLib" />
+    </LinearLayout>
+</LinearLayout>

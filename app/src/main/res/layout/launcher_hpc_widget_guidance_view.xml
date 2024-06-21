@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widgetguidance_view_layout" android:padding="@dimen/widgetguidance_view_padding" android:visibility="gone" android:clipChildren="false" android:layout_width="@dimen/widgetguidance_view_width" android:layout_height="@dimen/widgetguidance_view_height" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/widgetguidance_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/widgetguidance_view_font_size" android:textColor="@color/hpc_widget_guidance_text_color" android:ellipsize="end" android:id="@id/widgetguidance_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/ss_strings_hpc_widget_info_content_txt" android:maxLines="2" android:fontFamily="sans-serif" />
+        <LinearLayout android:gravity="end|bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="8.0dip">
+            <Space android:layout_width="8.0dip" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/hpc_widget_guidance_button_text_color" android:gravity="center" android:id="@id/widgetguidance_view_cancel" android:background="@drawable/ripple_square" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="64.0dip" android:text="@android:string/cancel" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+            <Space android:layout_width="8.0dip" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/hpc_widget_guidance_button_text_color" android:gravity="center" android:id="@id/widgetguidance_view_ok" android:background="@drawable/ripple_square" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="64.0dip" android:text="@string/ss_strings_hpc_widget_info_button_ok_txt" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+            <Space android:layout_width="8.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

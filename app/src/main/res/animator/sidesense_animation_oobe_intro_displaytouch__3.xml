@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_oobe_intro_displaytouch__4"
+        android:duration="333"
+        android:startOffset="0"
+        android:valueFrom="M-1.5 0.75 C-1.5,7.79 -2.45,13.5 -3.62,13.5 C-4.8,13.5 -5.75,7.79 -5.75,0.75 C-5.75,-6.29 -4.8,-12 -3.62,-12 C-2.45,-12 -1.5,-6.29 -1.5,0.75c "
+        android:valueTo="M-40 0 C-40,11.05 -48.95,20 -60,20 C-71.05,20 -80,11.05 -80,0 C-80,-11.05 -71.05,-20 -60,-20 C-48.95,-20 -40,-11.05 -40,0c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_oobe_intro_displaytouch__5"
+        android:duration="250"
+        android:startOffset="333"
+        android:valueFrom="M-40 0 C-40,11.05 -48.95,20 -60,20 C-71.05,20 -80,11.05 -80,0 C-80,-11.05 -71.05,-20 -60,-20 C-48.95,-20 -40,-11.05 -40,0c "
+        android:valueTo="M-56.5 0 C-56.5,40.59 -89.41,73.5 -130,73.5 C-170.59,73.5 -203.5,40.59 -203.5,0 C-203.5,-40.59 -170.59,-73.5 -130,-73.5 C-89.41,-73.5 -56.5,-40.59 -56.5,0c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_oobe_intro_displaytouch__6"
+        android:duration="250"
+        android:startOffset="583"
+        android:valueFrom="M-56.5 0 C-56.5,40.59 -89.41,73.5 -130,73.5 C-170.59,73.5 -203.5,40.59 -203.5,0 C-203.5,-40.59 -170.59,-73.5 -130,-73.5 C-89.41,-73.5 -56.5,-40.59 -56.5,0c "
+        android:valueTo="M-31.5 0 C-31.5,54.4 -75.6,98.5 -130,98.5 C-184.4,98.5 -228.5,54.4 -228.5,0 C-228.5,-54.4 -184.4,-98.5 -130,-98.5 C-75.6,-98.5 -31.5,-54.4 -31.5,0c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:interpolator="@anim/sidesense_animation_oobe_intro_displaytouch__7"
+        android:duration="500"
+        android:startOffset="833"
+        android:valueFrom="M-31.5 0 C-31.5,54.4 -75.6,98.5 -130,98.5 C-184.4,98.5 -228.5,54.4 -228.5,0 C-228.5,-54.4 -184.4,-98.5 -130,-98.5 C-75.6,-98.5 -31.5,-54.4 -31.5,0c "
+        android:valueTo="M-40 0 C-40,49.71 -80.29,90 -130,90 C-179.71,90 -220,49.71 -220,0 C-220,-49.71 -179.71,-90 -130,-90 C-80.29,-90 -40,-49.71 -40,0c "
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+</set>

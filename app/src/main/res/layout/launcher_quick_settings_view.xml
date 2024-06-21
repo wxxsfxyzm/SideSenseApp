@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/quick_settings_view_layout" android:background="@drawable/btn_default_material" android:clickable="true" android:clipChildren="false" android:layout_width="@dimen/quick_settings_view_width" android:layout_height="@dimen/quick_settings_view_height" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

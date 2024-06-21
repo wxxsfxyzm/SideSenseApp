@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/launcher_header_menu_title_feedback_view_item" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/launcher_header_menu_title_feedback_view_margin_top" android:foreground="@drawable/launcher_header_menu_title_feedback_material" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

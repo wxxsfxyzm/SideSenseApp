@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_save" android:title="@string/ss_strings_multi_window_done_txt" android:showAsAction="always" android:actionLayout="@layout/settings_save_menu_layout" />
+</menu>
