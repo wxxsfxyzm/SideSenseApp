@@ -106,7 +106,7 @@ class TutorialVideoView : TextureView {
             // from class: com.sonymobile.sidesenseapp.tutorial.TutorialVideoView.3
             // android.media.MediaPlayer.OnInfoListener
             if (i2 == 3) {
-                this@TutorialVideoView.visibility = 0
+                this@TutorialVideoView.visibility = VISIBLE
             }
             false
         }

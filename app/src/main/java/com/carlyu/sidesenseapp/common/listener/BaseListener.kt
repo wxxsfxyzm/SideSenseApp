@@ -1,4 +1,4 @@
-package com.sonymobile.sidesenseapp.common.listener
+package com.carlyu.sidesenseapp.common.listener
 
 import android.content.Context
 import android.os.Bundle
@@ -11,7 +11,7 @@ abstract class BaseListener(context: Context?, private val mCallback: Callback?)
 
     /* loaded from: classes.dex */
     interface Callback {
-        fun onEvent(str: String?)
+        fun onEvent(str: String)
     }
 
     fun addCallback(callback: Callback?) {
@@ -35,10 +35,9 @@ abstract class BaseListener(context: Context?, private val mCallback: Callback?)
         mCallbacks.remove(callback)
     }
 
-    fun sendEvent(str: String?) {
+    fun sendEvent(str: String) {
         if (this.isRegistered) {
-            val callback = this.mCallback
-            callback.onEvent(str)
+            mCallback?.onEvent(str)
             for (callback2 in this.mCallbacks) {
                 callback2!!.onEvent(str)
             }

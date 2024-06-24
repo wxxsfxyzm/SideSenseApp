@@ -28,7 +28,7 @@ class ActivityStateChangedReceiver : BroadcastReceiver() {
 
     companion object {
         private const val ACTION_ACTIVITY_STATE_CHANGED =
-            "com.sonymobile.sidesenseapp.action.ACTIVITY_STATE_CHANGED"
+            "com.carlyu.sidesenseapp.action.ACTIVITY_STATE_CHANGED"
         private const val TAG = "ActivityStateChangedReceiver"
     }
 }

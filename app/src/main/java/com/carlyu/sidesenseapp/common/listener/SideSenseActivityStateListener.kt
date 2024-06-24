@@ -1,12 +1,12 @@
-package com.sonymobile.sidesenseapp.common.listener
+package com.carlyu.sidesenseapp.common.listener
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
+import com.carlyu.sidesenseapp.common.activities.ActivityStateChangedReceiver
 import com.carlyu.sidesenseapp.common.util.LogUtil
-import com.sonymobile.sidesenseapp.common.activities.ActivityStateChangedReceiver
 
 
 /* loaded from: classes.dex */
@@ -22,7 +22,7 @@ class SideSenseActivityStateListener private constructor(
             if (intent.action != ACTION_ACTIVITY_STATE_CHANGED) {
                 LogUtil.e(
                     LogUtil.LOG_TAG,
-                    TAG + ".onReceive intent.getAction is invalid value"
+                    "$TAG.onReceive intent.getAction is invalid value"
                 )
                 return
             }
@@ -30,7 +30,7 @@ class SideSenseActivityStateListener private constructor(
             val stringExtra = intent.getStringExtra(EXTRA_ACTIVITY_STATE)
             LogUtil.d(
                 LogUtil.LOG_TAG,
-                TAG + ".onReceive action=" + action + " state=" + stringExtra
+                "$TAG.onReceive action=$action state=$stringExtra"
             )
             this@SideSenseActivityStateListener.sendEvent(EVENT_ACTIVITY_STATE_CHANGED)
         }
@@ -65,7 +65,7 @@ class SideSenseActivityStateListener private constructor(
         const val EVENT_ACTIVITY_STATE_CHANGED: String = "activity_state_changed"
         const val EXTRA_ACTIVITY_COMPONENT_NAME: String =
             "com.carlyu.sidesenseapp.extra.ACTIVITY_COMPONENT_NAME"
-        const val EXTRA_ACTIVITY_STATE: String = "com.sonymobile.sidesenseapp.extra.ACTIVITY_STATE"
+        const val EXTRA_ACTIVITY_STATE: String = "com.carlyu.sidesenseapp.extra.ACTIVITY_STATE"
         private const val TAG = "SideSenseActivityStateListener"
 
         @SuppressLint("StaticFieldLeak")
