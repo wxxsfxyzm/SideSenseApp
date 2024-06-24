@@ -1,7 +1,7 @@
 package com.carlyu.sidesenseapp.common.activities
 
 import androidx.fragment.app.FragmentActivity
-import com.sonymobile.sidesenseapp.common.listener.SideSenseActivityStateListener
+import com.carlyu.sidesenseapp.common.listener.SideSenseActivityStateListener
 
 /* loaded from: classes.dex */
 open class BaseFragmentActivity : FragmentActivity() {

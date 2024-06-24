@@ -4,7 +4,6 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import com.carlyu.sidesenseapp.common.util.LogUtil
-import com.sonymobile.sidesenseapp.launcher.quicksettings.systemui.C1039a
 
 /* loaded from: classes.dex */
 class ActivityStateChangedReceiver : BroadcastReceiver() {
@@ -21,7 +20,7 @@ class ActivityStateChangedReceiver : BroadcastReceiver() {
         }
         LogUtil.e(
             LogUtil.LOG_TAG,
-            C1039a.m1295b(str, ".onReceive intent.getAction is invalid value")
+            "$str.onReceive intent.getAction is invalid value"
         )
         abortBroadcast()
     }

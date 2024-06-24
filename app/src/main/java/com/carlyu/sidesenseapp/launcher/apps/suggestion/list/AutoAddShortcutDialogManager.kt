@@ -191,7 +191,7 @@ class AutoAddShortcutDialogManager private constructor(private val mContext: Con
                             customAppsListController.insert(shortCutItemList[i], index, true)
                             index++
                         } else {
-                            Preferences.getInstance(mContext).setAutoAddDialogStatusForShortcut(
+                            Preferences.getInstance(mContext)!!.setAutoAddDialogStatusForShortcut(
                                 mContext,
                                 shortCutItemList[i].componentName.flattenToString(),
                                 AutoAddDialogStatus.NOT_ADD.status
@@ -229,9 +229,11 @@ class AutoAddShortcutDialogManager private constructor(private val mContext: Con
     }
 
     fun getIddDialogCategory(context: Context, i: Int, i2: Int): Int {
-        return Preferences.getInstance(context)
-            .getAutoAddDialogStatusForShortcut(context, context.resources.getStringArray(i)[i2])
+        val preferences = Preferences.getInstance(context)!!
+        val stringArray = context.resources.getStringArray(i)
+        return preferences.getAutoAddDialogStatusForShortcut(context, stringArray[i2])
     }
+
 
     fun getShortcutInstallAlipay(): Boolean {
         return getShortcutInstallStatus(PACKAGE_NAME_ALIPAY)
